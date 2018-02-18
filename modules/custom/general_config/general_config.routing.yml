@@ -1,0 +1,11 @@
+
+general_config.config_form:
+  path: '/admin/config/general_config/config'
+  defaults:
+    _form: '\Drupal\general_config\Form\ConfigForm'
+    _title: 'General Config Form'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

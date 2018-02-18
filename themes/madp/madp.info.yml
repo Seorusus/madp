@@ -1,0 +1,16 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'madp'
+description: 'Custom madp theme based on bootstrap'
+package: 'Bootstrap'
+
+regions:
+  header: 'Page Header'
+  content: 'Page Content'
+  footer: 'Page Footer'
+  copyright: 'Page copyright'
+
+libraries:
+  - 'madp/global-styling'

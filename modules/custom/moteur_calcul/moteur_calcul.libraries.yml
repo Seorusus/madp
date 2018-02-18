@@ -1,0 +1,32 @@
+moteur_calcul_simulateur:
+  css:
+    theme:
+      css/moteur-calcul-simulateur.css: {}
+  js:
+    js/moteur-calcul-simulateur.js: {}
+    js/moteur-calcul-global.js: {}
+  dependencies:
+  - moteur_calcul/ion-rangeSlider
+  - moteur_calcul/chartjs
+
+
+form-config:
+ js:
+    js/moteur-calcul-form-config.js: {}
+ dependencies:
+  - moteur_calcul/ion-rangeSlider
+
+ion-rangeSlider:
+  css:
+    theme:
+      js/vendor/ion.rangeSlider/css/ion.rangeSlider.css: {}
+      js/vendor/ion.rangeSlider/css/ion.rangeSlider.skinFlat.css: {}
+  js:
+    js/vendor/ion.rangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js: {}
+  dependencies:
+    - core/jquery
+
+
+chartjs:
+  js:
+    js/vendor/chartjs/Chart.bundle.js: {}

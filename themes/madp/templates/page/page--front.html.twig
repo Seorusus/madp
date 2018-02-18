@@ -1,0 +1,50 @@
+{% extends 'themes/madp/templates/system/page.html.twig' %}
+
+
+{% block content %}
+
+    <section role="main" class="visuel">
+
+        <!-- Image de la page d'accueil -->
+        <div class="visu">
+            <div class="desktop">
+                <img class="bg" src="/themes/madp/assets/img/fd-virgule-desktop.png" alt="" />
+                <img src="{{ file_url(accueil_visuel_realpath) }}" alt="Madp image d'accueil" class="image-accueil"/>
+            </div>
+            <div class="mobile">
+                <img class="bg" src="/themes/madp/assets/img/fd-virgule-iphone.png" alt="" />
+                <img src="{{ file_url(accueil_visuel_mobile_realpath) }}" alt="Madp image d'accueil - mobile" class="image-accueil-mobile" />
+            </div>
+        </div>
+        <!-- / Image de la page d'accueil -->
+
+        <!-- text message d'accueil -->
+        <div class="container">
+            <div class="txt">
+                <!-- admin field -->
+                <h1 class="sr-only">MADP Direct : La Mutuelle chômage 100% digitale</h1>
+                {{accueil_message_1|raw}}
+                {{accueil_message_2|raw}}
+            </div>
+        </div>
+        <!-- / text message d'accueil -->
+
+        <!-- button  -->
+        <a class="btn-rappeler" href="#"></a>
+        <!-- button  -->
+
+        <!-- button Faire une simulation -->
+        <a class="btn-simulation" href="{{ url('moteur_calcul.simulateur_controller_ecran1') }}" role="button"><span>{{text_button_faire_une_simulation}}<small> {{sous_text_button_faire_une_simulation}}</small></span></a>
+        <!-- button Faire une simulation -->
+
+    </section>
+
+    <div class="clearfix"></div>
+
+    <!-- Bloc pourquoi attendre -->
+    <div class="middle">
+        {{drupal_block('bloc_pourquoi_attendre')}}
+    </div>
+    <!-- / Bloc pourquoi attendre -->
+
+{% endblock %}

@@ -1,0 +1,8 @@
+app:
+  css:
+    theme:
+      /app/dist/style.css : {}
+  js:
+    /app/dist/manifest.js : {}
+    /app/dist/vendor.js : {}
+    /app/dist/client.js : {}

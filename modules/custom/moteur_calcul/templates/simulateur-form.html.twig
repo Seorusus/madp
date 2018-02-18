@@ -1,0 +1,142 @@
+{# Simulateur form #}
+<div id="moteur_calcul_simulateur">
+    <!-- ecran1 simulateur form -->
+    <div id="block_ecran1">
+        <div class="alert-messages"><ul></ul></div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12">
+                <form class="block-left">
+                    <div class="label-bf" id="field_age">
+                        <label>Age*</label>
+                        <div class="ct">
+                            <input type="number" name="age" size="20" min="0" max="200" maxlength="3" value="" placeholder="" pattern="[0-9]"/>
+                            <span>ans</span>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p class="help-block help-required hidden">Ce champ est obligatoire.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="label-bf" id="field_salaire_annuel_brut">
+                        <div class="pos-tooltip">
+                            <label>Salaire annuel <br /> brut* <a href="#" class="tooltip--triangle" data-tooltip="{{ drupal_config('moteur_calcul.parameterstable','field_salaire_annuel_brut_info')}}">
+                                    <img src="/themes/madp/assets/img/tooltip.gif" alt="infos" /></a>
+                            </label>
+                        </div>
+                        <div class="ct">
+                            <input type="number" name="salaire" size="20" min="0" value="" placeholder=""/>
+                            <span> €</span>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p class="help-block help-required hidden">Ce champ est obligatoire.</p>
+                    </div>
+                    <button class="bt-mc" id="moteur_calcul_simulateur_form_submit" type="button">valider</button>
+                </form>
+            </div>
+            <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12">
+                <div class="block-right collapsible closed">
+                    <img src="/themes/madp/assets/img/picto-information.gif" alt="" />
+                    <h3>
+                        {{ drupal_config('moteur_calcul.parameterstable','simulateur_encart_informatif_titre')|raw}}
+                    </h3>
+                    <div class="ct-p">
+                        <span class="picto"></span>
+                        {{ drupal_config('moteur_calcul.parameterstable','simulateur_encart_informatif_text')['value']|raw}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="content-ecran-simu">
+        <!-- ecran2 simulateur resultat simple -->
+        <div id="block_ecran2" class="hidden border">
+            <table>
+                <tr>
+                    <td>Salaire mensuel net :</td>
+                    <td><span id="salaire_mensuel_net">0</span> €</td>
+                </tr>
+                <tr>
+                    <td>Allocation mensuelle <br /> nette par Pôle Emploi :</td>
+                    <td><span id="allocation_mensuel_net_pole_emploi">0</span> €</td>
+                </tr>
+                <tr>
+                    <td>Manque à gagner <br /> mensuel net :</td>
+                    <td><span id="manque_ganger_mensuel_net">0</span> €</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <!-- ecran3 simulateur complet -->
+        <div id="block_ecran3" class="hidden">
+            <div class="alert-messages"><ul></ul></div>
+            <div class="content hidden">
+                <div id="montantMonsuelIndemnise" class="border">
+                    <div class="pos-tooltip">
+                        <h3>Montant mensuel indemnisé
+                            <a href="#" class="tooltip--triangle" data-tooltip="{{ drupal_config('moteur_calcul.parameterstable','montant_mensuel_indemnise_info')}}">
+                                <img src="/themes/madp/assets/img/tooltip.gif" alt="infos" /></a>
+                        </h3>
+                    </div>
+                    <div class="mmi hidden-sm hidden-xs">
+                        <input id="input-montantMonsuelIndemnise" type="text" name="input-montantMonsuelIndemnise">
+                    </div>
+
+                    <!-- affichage mobile -->
+                    <div class="hidden-md hidden-lg">
+                        <select id="select-montantMonsuelIndemnise" class="select-montantMonsuelIndemnise form-control"></select>
+                    </div>
+                </div>
+
+                <div id="duree-montant-mensuel-cotisations" class="border">
+                    <div class="pos-tooltip last">
+                        <h3>Durée et cotisation
+                            <a href="#" class="tooltip--triangle" data-tooltip="{{ drupal_config('moteur_calcul.parameterstable','duree_indemnisation_montant_cotisations_info')}}">
+                                <img src="/themes/madp/assets/img/tooltip.gif" alt="infos" /></a>
+                        </h3>
+                        <div class="mmd hidden-sm hidden-xs">
+                            <input id="input-duree-montant-mensuel-cotisations" type="text" name="input-duree-montant-mensuel-cotisations">
+                        </div>
+                    </div>
+                    <div id="montantCotisation" class="mc hidden-md hidden-lg">
+                        <h4>Montant mensuel des cotisations :</h4>
+                        <div class="montant"></div>
+                        <div class="duree">(Varie selon la durée)</div>
+                    </div>
+                    <!-- affichage mobile -->
+                    <div class="mc hidden-md hidden-lg">
+                        <h4>La durée des cotisations :</h4>
+                        <select id="select-duree-montant-mensuel-cotisations" class="select-duree-montant-mensuel-cotisations form-control"></select>
+                    </div>
+                </div>
+
+                <div id="taux-couverture-global">
+                    <h3>Taux de couverture global</h3>
+
+                    <!-- Pie legends -->
+                    <div class="ct-chart-legend">
+                        <div id="pie-legends" class="chart-legend">
+                        </div>
+                    </div>
+
+                    <!-- Pie -->
+                    <div class="graf">
+                        <div id="canvas-holder">
+                            <canvas width="100%" height="100%" id="taux-couverture-chart-area-mobile" class="hidden-md hidden-lg hidden-sm"></canvas>
+                            <canvas  id="taux-couverture-chart-area" class="hidden-xs"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{{ attach_library('moteur_calcul/moteur_calcul_simulateur') }}
+{{ attach_library('madp/select2') }}

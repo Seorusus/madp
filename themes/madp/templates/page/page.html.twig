@@ -1,0 +1,75 @@
+
+<div class="main-wrapper">
+
+    <!-- HEADER start-->
+    <header role="banner">
+        {% block header %}
+
+            <section class="header-top">
+                <div class="container">
+
+                    <!-- logo -->
+                    <a href="{{ url('<front>') }}"><img src="{{ file_url(site_logo_realpath) }}" alt="Madp logo" class="logo" height="159" /></a>
+                    <!-- logo -->
+
+                    <div class="row">
+                        <div class="left col-lg-9 col-md-9 col-sm-12 col-xs-12">
+
+                            <!-- baseline -->
+                            {{site_signature|raw}}
+                            <!-- baseline -->
+
+                        </div>
+                        <div class="right col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <a href="{{lien_bouton_espace_personel}}" class="btn">{{titre_bouton_espace_personel}}</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="/" class="clt"><img src="/themes/madp/assets/img/picto-clt.gif" alt="devenir client" /></a>
+            </section>
+
+            <div class="clearfix"></div>
+
+            {{ page.header }}
+
+        {% endblock %}
+    </header>
+    <!-- HEADER end-->
+
+    <div class="clearfix"></div>
+
+    <!-- CONTENT start-->
+    {% block content %}
+        <main>
+            {{ page.content }}
+        </main>
+    {% endblock %}
+    <!-- CONTENT end-->
+
+    <div class="clearfix"></div>
+
+    <footer role="contentinfo">
+        <!-- FOOTER start -->
+        {% block footer %}
+            <div class="footer clearfix">
+                <div class="container">
+                    {{ page.footer }}
+                </div>
+            </div>
+        {% endblock %}
+        <!-- FOOTER end -->
+
+        <div class="clearfix"></div>
+
+        <!-- COPYRIGHT start -->
+        {% block copyright %}
+            <div class="copyRight clearfix">
+                <div class="container">
+                    {{ page.copyright}}
+                </div>
+            </div>
+        {% endblock %}
+        <!-- COPYRIGHT end -->
+    </footer>
+
+</div>

@@ -1,0 +1,7 @@
+moteur_calcul.parameters_table_form:
+  title: 'Paramétrage Simulateur'
+  route_name: moteur_calcul.parameters_table_form
+  description: 'Page regroupant différentes variables paramétrables via le Back Office'
+  parent: system.admin_config_system
+  weight: 99
+

@@ -1,0 +1,14 @@
+{
+    "name": "drupal/moteur_calcul",
+    "type": "drupal-module",
+    "description": "Moteur de calcul complémentaire chômage",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0+",
+    "homepage": "https://www.drupal.org/project/moteur_calcul",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/moteur_calcul",
+        "source": "http://cgit.drupalcode.org/moteur_calcul"
+    },
+    "require": {}
+}

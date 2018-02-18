@@ -1,0 +1,31 @@
+general_config: null
+_core:
+  default_config_hash: EpGibKTCX0gxi2fBFP3FXPfIOvoGs1LKRZiVg8K66M4
+langcode: fr
+accueil_visuel:
+  - '12'
+accueil_message:
+  value: '<h2>L''assurance chômage comme vous l''espérez.</h2><p>Pôle Emploi maintient&nbsp; 57% de votre revenu net. MADP DIRECT&nbsp; vous garantit le complément.</p>'
+  format: basic_html
+site_logo:
+  - '14'
+site_signature:
+  value: '<p>La mutuelle d''assurance dédiée aux professionnels</p>'
+  format: basic_html
+text_button_faire_une_simulation: 'Faire une simulation'
+accueil_visuel_mobile:
+  - '13'
+sous_text_button_faire_une_simulation: 'en 3 étapes'
+accueil_message_1:
+  value: '<h2>L''assurance chômage comme vous l''espérez.</h2>'
+  format: basic_html
+accueil_message_2:
+  value: '<p>Pôle Emploi maintient&nbsp; 57% de votre revenu net. MADP DIRECT&nbsp; vous garantit le complément.</p>'
+  format: basic_html
+footer_site_logo:
+  - '15'
+footer_site_signature:
+  value: '<p>est une marque de MADP Assurances</p>'
+  format: basic_html
+titre_espace_personel: 'Votre espace'
+lien_espace_personel: 'https://www.google.fr'

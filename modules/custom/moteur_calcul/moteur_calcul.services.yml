@@ -1,0 +1,4 @@
+services:
+    moteur_calcul:
+        class: Drupal\moteur_calcul\service\MoteurCalcul
+

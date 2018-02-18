@@ -1,0 +1,73 @@
+
+moteur_calcul.parameters_table_form:
+  path: '/admin/config/moteur_calcul/parameterstable'
+  defaults:
+    _form: '\Drupal\moteur_calcul\Form\ParametersTableForm'
+    _title: 'Paramétrage Simulateur'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+moteur_calcul.parameters_table_form_cotisation_table:
+  path: '/admin/config/moteur_calcul/parameterstable/cotisationTable'
+  defaults:
+    _controller: '\Drupal\moteur_calcul\Controller\SimulateurController::cotisationTable'
+    _title: 'Cotisation form table config'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+moteur_calcul.simulateur_controller_ecran1:
+  path: '/moteur-calcul/simulateur'
+  defaults:
+    _controller: '\Drupal\moteur_calcul\Controller\SimulateurController::ecran1'
+    _title: 'Page simulateur'
+  methods:  [GET]
+  requirements:
+    _permission: 'access content'
+
+moteur_calcul.simulateur_controller_ecran2:
+  path: '/moteur-calcul/simulateur/ecran2/salaire/{salaire}'
+  defaults:
+    _controller: '\Drupal\moteur_calcul\Controller\SimulateurController::ecran2'
+    _title: 'Page simulateur'
+  methods:  [GET]
+  requirements:
+    _permission: 'access content'
+    salaire: '\d+'
+
+moteur_calcul.simulateur_controller_ecran3:
+  path: '/moteur-calcul/simulateur/ecran3/age/{age}/salaire/{salaire}'
+  defaults:
+    _controller: '\Drupal\moteur_calcul\Controller\SimulateurController::ecran3'
+    _title: 'Page simulateur'
+  methods:  [GET]
+  requirements:
+    _permission: 'access content'
+    age: '\d+'
+    salaire: '\d+'
+
+moteur_calcul.simulateur_controller_montant_mensuel_cotisation:
+  path: '/moteur-calcul/simulateur/montant-mensuel-cotisation/age/{age}/salaire/{salaire}/montantMensuelIndemnise/{montantMensuelIndemnise}/dureeIndemnisation/{dureeIndemnisation}'
+  defaults:
+    _controller: '\Drupal\moteur_calcul\Controller\SimulateurController::MontantMensuelCotisation'
+    _title: 'Page simulateur'
+  methods:  [GET]
+  requirements:
+    _permission: 'access content'
+    age: '\d+'
+    salaire: '\d+'
+    montantMensuelIndemnise: '\d+'
+    dureeIndemnisation: '\d+'
+
+moteur_calcul.simulateur_controller_integration:
+  path: '/moteur-calcul/simulateur/theme/{theme}'
+  defaults:
+    _controller: '\Drupal\moteur_calcul\Controller\SimulateurController::integration'
+    _title: 'Simulateur'
+  methods:  [GET]
+  requirements:
+    _permission: 'access content'
+    theme: 'default|orange'

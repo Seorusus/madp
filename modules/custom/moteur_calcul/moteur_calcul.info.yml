@@ -1,0 +1,5 @@
+name: moteur_calcul
+type: module
+description: Moteur de calcul complémentaire chômage
+core: 8.x
+package: Custom

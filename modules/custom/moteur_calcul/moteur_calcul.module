@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * @file
+ * Contains moteur_calcul.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function moteur_calcul_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the moteur_calcul module.
+    case 'help.page.moteur_calcul':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Moteur de calcul complémentaire chômage') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function moteur_calcul_theme() {
+  return [
+    'moteur_calcul' => [
+      'render element' => 'children',
+    ],
+    'moteur_calcul_simulateur_page' =>['variables' => ['params' => []], 'template' => 'moteur-calcul-simulateur-page'],
+    'moteur_calcul_simulateur_form_integration' =>['variables' => ['params' => []], 'template' => 'simulateur-form-integration'],
+    'moteur_calcul_parameters_table_form' =>['render element' => 'form'],
+    'moteur_calcul_cotisation_table' =>['variables' => ['params' => []],'template' => 'moteur-calcul-cotisation-table'],
+  ];
+}

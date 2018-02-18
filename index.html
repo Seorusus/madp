@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="/app/dist/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Some title</h1>
+    <a class="btn btn-outline-dark" href="/#/connexion" id="unLoggedBtn">Mon espace</a>
+    <div class="dropdown" style="display: none" id="loggedBtn">
+      <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Mon Compte
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="/#/espace-client/mes-infos"><i class="fas fa-info-circle fa-fw"></i> Mes infos</a>
+        <a class="dropdown-item" href="/#/espace-client/mes-contrats"><i class="fas fa-file-alt fa-fw"></i> Mes contrats</a>
+        <a class="dropdown-item" href="/#/espace-client/mes-sinistres"><i class="fas fa-exclamation-triangle fa-fw"></i> Mes sinistres</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#" id="logout"><i class="fas fa-power-off fa-fw"></i> Déconnexion</a>
+      </div>
+    </div>
+    <p>Some Content</p>
+    <div id="app">
+    </div>
+  </div>
+  <script type="text/javascript" src="/app/dist/manifest.js"></script>
+  <script type="text/javascript" src="/app/dist/vendor.js"></script>
+  <script type="text/javascript" src="/app/dist/client.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

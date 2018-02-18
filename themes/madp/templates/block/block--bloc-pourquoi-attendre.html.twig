@@ -1,0 +1,40 @@
+{%
+set classes = [
+'block',
+'block-' ~ configuration.provider|clean_class,
+'block-' ~ plugin_id|clean_class,
+'clearfix',
+'bannercontainer',
+]
+%}
+<section{{ attributes.addClass(classes) }}>
+    {% block content %}
+        <div class="container">
+            {{ title_prefix }}
+            {% if label %}
+                {# <h2{{ title_attributes.addClass('block-title') }}>{{ label }}</h2>#}
+            {% endif %}
+            {{ title_suffix }}
+
+            <div class="clearfix"></div>
+
+            <div class="row">
+                <div class="ct">
+                    {% for item in content.field_info_with_image['#items'].getIterator() %}
+                        {% set field_collection = item.getFieldCollectionItem()%}
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <a href="{{field_collection.field_url.uri}}">
+                                <div class="ct-img">
+                                    <img src="{{file_url(field_collection.field_image[0].entity.FileUri)}}" alt="{{field_collection.field_image[0].value.alt}}">
+                                </div>
+                                <div class="clearfix"></div>
+                                <h3>{{field_collection.field_titre.value}}</h3>
+                                <p>{{field_collection.field_html.value|raw}}</p>
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+</section>

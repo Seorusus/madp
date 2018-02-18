@@ -1,0 +1,154 @@
+<?php
+
+/**
+ * @file
+ * Contains general_config.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_help().
+ */
+function general_config_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the general_config module.
+    case 'help.page.general_config':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Page regroupant différentes variables paramétrables via le Back Office') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function general_config_theme() {
+  return [
+    'general_config' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+
+function general_config_preprocess_page(&$variables) {
+    // ========= All pages =========
+    // get image logo
+    $site_logo = getFieldFileObject('site_logo');
+    $variables['site_logo_realpath']= (is_object($site_logo))?$site_logo->getFileUri():null;
+    // get site signature
+    $site_signature = \Drupal::configFactory()->getEditable('general_config.config')->get('site_signature');
+    $variables['site_signature']= (isset($site_signature['value']))? $site_signature['value']:null;
+
+    //Button espace personel
+    $variables['titre_bouton_espace_personel']= \Drupal::configFactory()->getEditable('general_config.config')->get('titre_espace_personel');
+    $variables['lien_bouton_espace_personel']= \Drupal::configFactory()->getEditable('general_config.config')->get('lien_espace_personel');
+
+  // ========= Home page =========
+ if(\Drupal::service('path.matcher')->isFrontPage()){
+     // get image d'accueil
+    $accueil_visuel = getFieldFileObject('accueil_visuel');
+    $variables['accueil_visuel_realpath']= (is_object($accueil_visuel))?$accueil_visuel->getFileUri():null;
+     // get image d'accueil mobile
+    $accueil_visuel_mobile = getFieldFileObject('accueil_visuel_mobile');
+    $variables['accueil_visuel_mobile_realpath']= (is_object($accueil_visuel_mobile))?$accueil_visuel_mobile->getFileUri():null;
+
+    // get message d'accueil 1
+    $accueil_message_1 = \Drupal::configFactory()->getEditable('general_config.config')->get('accueil_message_1');
+    $variables['accueil_message_1']= (isset($accueil_message_1['value']))? $accueil_message_1['value']:null;
+
+    // get message d'accueil 2
+    $accueil_message_2 = \Drupal::configFactory()->getEditable('general_config.config')->get('accueil_message_2');
+    $variables['accueil_message_2']= (isset($accueil_message_2['value']))? $accueil_message_2['value']:null;
+
+    // get text button "faire une simulation"
+    $text_button_faire_une_simulation = \Drupal::configFactory()->getEditable('general_config.config')->get('text_button_faire_une_simulation');
+    $variables['text_button_faire_une_simulation']= (isset($text_button_faire_une_simulation))? $text_button_faire_une_simulation:null;
+
+    // get sous text button "faire une simulation"
+    $sous_text_button_faire_une_simulation = \Drupal::configFactory()->getEditable('general_config.config')->get('sous_text_button_faire_une_simulation');
+    $variables['sous_text_button_faire_une_simulation']= (isset($sous_text_button_faire_une_simulation))? $sous_text_button_faire_une_simulation:null;
+
+ }
+}
+
+
+function general_config_preprocess_menu__footer(&$variables) {
+    // get image logo
+    $footer_site_logo = getFieldFileObject('footer_site_logo');
+    $variables['footer_site_logo_realpath']= (is_object($footer_site_logo))?$footer_site_logo->getFileUri():null;
+    // get site signature
+    $footer_site_signature = \Drupal::configFactory()->getEditable('general_config.config')->get('footer_site_signature');
+    $variables['footer_site_signature']= (isset($footer_site_signature['value']))? $footer_site_signature['value']:null;
+}
+
+function getFieldFileObject($fieldName){
+    $fileId = \Drupal::configFactory()->getEditable('general_config.config')->get($fieldName);
+    if(isset($fileId[0])){
+    $file = \Drupal\file\Entity\File::load($fileId[0]);
+    }else{
+    $file = null;
+    }
+    return $file;
+}
+
+
+function general_config_preprocess_image_widget(&$variables) {
+    $element = $variables['element'];
+
+    $variables['attributes'] = array('class' => array('image-widget', 'js-form-managed-file', 'form-managed-file', 'clearfix'));
+
+    if (!empty($element['fids']['#value'])) {
+        $file = reset($element['#files']);
+        $element['file_' . $file->id()]['filename']['#suffix'] = ' <span class="file-size">(' . format_size($file->getSize()) . ')</span> ';
+        $file_variables = array(
+            'style_name' => $element['#preview_image_style'],
+            'uri' => $file->getFileUri(),
+        );
+
+        // Determine image dimensions.
+        if (isset($element['#value']['width']) && isset($element['#value']['height'])) {
+            $file_variables['width'] = $element['#value']['width'];
+            $file_variables['height'] = $element['#value']['height'];
+        } else {
+            $image = \Drupal::service('image.factory')->get($file->getFileUri());
+            if ($image->isValid()) {
+                $file_variables['width'] = $image->getWidth();
+                $file_variables['height'] = $image->getHeight();
+            }
+            else {
+                $file_variables['width'] = $file_variables['height'] = NULL;
+            }
+        }
+
+        $element['preview'] = array(
+            '#weight' => -10,
+            '#theme' => 'image_style',
+            '#width' => $file_variables['width'],
+            '#height' => $file_variables['height'],
+            '#style_name' => $file_variables['style_name'],
+            '#uri' => $file_variables['uri'],
+        );
+
+        // Store the dimensions in the form so the file doesn't have to be
+        // accessed again. This is important for remote files.
+        $element['width'] = array(
+            '#type' => 'hidden',
+            '#value' => $file_variables['width'],
+        );
+        $element['height'] = array(
+            '#type' => 'hidden',
+            '#value' => $file_variables['height'],
+        );
+    }
+
+    $variables['data'] = array();
+    foreach (Element::children($element) as $child) {
+        $variables['data'][$child] = $element[$child];
+    }
+}

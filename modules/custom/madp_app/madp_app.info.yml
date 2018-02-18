@@ -1,0 +1,5 @@
+name: madp_app
+type: module
+description: Module pour utiliser l'app MADP
+core: 8.x
+package: Custom

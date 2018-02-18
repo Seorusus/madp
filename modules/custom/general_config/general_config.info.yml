@@ -1,0 +1,5 @@
+name: general_config
+type: module
+description: Page regroupant différentes variables paramétrables via le Back Office
+core: 8.x
+package: Custom

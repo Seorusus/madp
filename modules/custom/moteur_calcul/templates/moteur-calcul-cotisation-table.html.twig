@@ -1,0 +1,31 @@
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th width="30%">Age inclus</th>
+            <th>Augmentation</th>
+            <th>Taux de cotisation Tranche1</th>
+            <th>Taux de cotisation Tranche2</th>
+            <th>Taux de cotisation Tranche3</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="6"><button type="button" class="addButton">Ajouter</button></td>
+        </tr>
+    </tfoot>
+    <tbody data-prototype='{% include '@moteur_calcul/prototype/moteur-calcul-cotisation-table-prototype.html.twig'%}'>
+        {% if params.tauxCotisationParams is defined %}
+            {%for tauxCotisationParam in params.tauxCotisationParams%}
+                <tr>
+                    <td class="age_range"><input type="text" class="age_inclus" name="age_inclus{{loop.index}}" value="{{tauxCotisationParam.age_range}}" /></td>
+                    <td class="augmentation"><input type="number" class="age_augmentation" name="age_augmentation{{loop.index}}" value="{{tauxCotisationParam.augmentation}}" size="3" style="width: 83%"/><span class="field-suffix" style="width: 17%"> %</span></td>
+                    <td class="taux_tr1"><span class="taux_tr1">{{tauxCotisationParam.taux_tr1}}</span>%<br><strong><span class="taux_tr1_round">{{'%.2f'|format(tauxCotisationParam.taux_tr1)}}</span>%</strong></td>
+                    <td class="taux_tr2"><span class="taux_tr2">{{tauxCotisationParam.taux_tr2}}</span>%<br><strong><span class="taux_tr2_round">{{'%.2f'|format(tauxCotisationParam.taux_tr2)}}</span>%</strong></td>
+                    <td class="taux_tr3"><span class="taux_tr3">{{tauxCotisationParam.taux_tr3}}</span>%<br><strong><span class="taux_tr3_round">{{'%.2f'|format(tauxCotisationParam.taux_tr3)}}</span>%</strong></td>
+                    <td class="action" ><button type="button" class="removeButton">Supprimer</button></td>
+                </tr>
+            {%endfor%}
+        {%endif%}
+    </tbody>
+</table>

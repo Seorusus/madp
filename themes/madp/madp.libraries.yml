@@ -1,0 +1,18 @@
+global-styling:
+  css:
+    theme:
+      assets/css/couleurs.css: {}
+      assets/css/main.css: {}
+
+  js:
+      assets/js/global.js: {}
+
+
+select2:
+    css:
+        theme:
+            assets/vendor/select2/dist/css/select2.min.css: {}
+    js:
+        assets/vendor/select2/dist/js/select2.min.js: {}
+    dependencies:
+    - core/jquery

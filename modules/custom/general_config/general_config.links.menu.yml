@@ -1,0 +1,7 @@
+general_config.config_form:
+  title: 'Paramètres Structure Globale'
+  route_name: general_config.config_form
+  description: 'Page regroupant différentes variables paramétrables via le Back Office'
+  parent: system.admin_config_system
+  weight: 99
+

@@ -1,0 +1,87 @@
+{# simulateur d'integration Twig template #}
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link href="/modules/custom/moteur_calcul/js/vendor/bootstrap-custom/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="/modules/custom/moteur_calcul/css/simulateur/simulateur-global.css" media="all" />
+        <link rel="stylesheet" href="/modules/custom/moteur_calcul/css/simulateur/theme/{{params.theme}}.css" media="all" >
+    </head>
+    <body class="simulateur-simple">
+        <div id="moteur_calcul_simulateur">
+            <div class="content-global-mc">
+
+                <h1>Simulation</h1>
+
+                <br />
+
+                <!-- ecran1 simulateur form -->
+                <div id="block_ecran1">
+                    {#<h2>Partie 1</h2>#}
+                    <div class="alert-messages"><ul></ul></div>
+
+                    <form>
+                        <div class="label-bf" id="field_age">
+                            <label>Age*</label>
+                            <div class="ct">
+                                <input type="number" name="age" size="20" min="0" max="200" maxlength="3" placeholder=""/>
+                                <span>ans</span>
+                            </div>
+                            <div class="clearfix"></div>
+                            <p class="help-block help-required hidden">Ce champ est obligatoire.</p>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="label-bf" id="field_salaire_annuel_brut">
+                            <label>Salaire annuel <br /> brut* <a href="#" class="tooltip--triangle" data-tooltip="{{ drupal_config('moteur_calcul.parameterstable','field_salaire_annuel_brut_info')}}">
+                                    <img src="/themes/madp/assets/img/tooltip.gif" alt="infos" /></a>
+                            </label>
+                            <div class="ct">
+                                <input type="number" name="salaire" size="20" min="0" value="" placeholder=""/>
+                                <span> €</span>
+                            </div>
+                            <div class="clearfix"></div>
+                            <p class="help-block help-required hidden">Ce champ est obligatoire.</p>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <button class="bt-mc" id="moteur_calcul_simulateur_form_submit" type="button">valider</button>
+                    </form>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="content-ecran-simu">
+                    <!-- ecran2 simulateur resultat simple -->
+                    <div id="block_ecran2" class="hidden">
+                        {#<h2>Partie 2</h2>#}
+                        <table>
+                            <tr>
+                                <td>Salaire mensuel net :</td>
+                                <td><span id="salaire_mensuel_net">0</span> €</td>
+                            </tr>
+                            <tr>
+                                <td>Allocation mensuelle <br /> nette par Pôle Emploi :</td>
+                                <td><span id="allocation_mensuel_net_pole_emploi">0</span> €</td>
+                            </tr>
+                            <tr>
+                                <td>Manque à gagner <br /> mensuel net :</td>
+                                <td><span id="manque_ganger_mensuel_net">0</span> €</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+
+        <script src="/modules/custom/moteur_calcul/js/vendor/jQuery/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="/modules/custom/moteur_calcul/js/vendor/bootstrap-custom/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/modules/custom/moteur_calcul/js/moteur-calcul-global.js" type="text/javascript"></script>
+        <script src="/modules/custom/moteur_calcul/js/moteur-calcul-simulateur.js" type="text/javascript"></script>
+    </body>
+</html>

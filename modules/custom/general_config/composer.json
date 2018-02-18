@@ -1,0 +1,14 @@
+{
+  "name": "drupal/general_config",
+  "type": "drupal-module",
+  "description": "Page regroupant différentes variables paramétrables via le Back Office",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/general_config",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/general_config",
+    "source": "http://cgit.drupalcode.org/general_config"
+  },
+  "require": { }
+}

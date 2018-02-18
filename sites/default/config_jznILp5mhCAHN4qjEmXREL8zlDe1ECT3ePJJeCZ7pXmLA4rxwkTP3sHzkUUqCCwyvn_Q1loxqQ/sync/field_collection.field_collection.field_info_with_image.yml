@@ -1,0 +1,6 @@
+uuid: null
+langcode: en
+status: true
+dependencies: {  }
+id: field_info_with_image
+label: field_info_with_image

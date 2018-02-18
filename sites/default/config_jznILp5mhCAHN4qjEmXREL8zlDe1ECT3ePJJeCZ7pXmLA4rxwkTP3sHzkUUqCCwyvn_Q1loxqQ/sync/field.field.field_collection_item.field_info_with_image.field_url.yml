@@ -1,0 +1,23 @@
+uuid: f21e4297-1de6-4ac1-9f97-a910e57dc10f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_url
+    - field_collection.field_collection.field_info_with_image
+  module:
+    - link
+id: field_collection_item.field_info_with_image.field_url
+field_name: field_url
+entity_type: field_collection_item
+bundle: field_info_with_image
+label: url
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

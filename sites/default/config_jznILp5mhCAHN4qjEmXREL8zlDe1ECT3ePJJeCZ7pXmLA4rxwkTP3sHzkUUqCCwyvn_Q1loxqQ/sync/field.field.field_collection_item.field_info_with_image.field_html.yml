@@ -1,0 +1,21 @@
+uuid: 2e61d43e-40c4-4b44-b2d1-32c0f7169200
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_html
+    - field_collection.field_collection.field_info_with_image
+  module:
+    - text
+id: field_collection_item.field_info_with_image.field_html
+field_name: field_html
+entity_type: field_collection_item
+bundle: field_info_with_image
+label: Texte
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
