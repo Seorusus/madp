@@ -1,4 +1,0 @@
-services:
-  menu_icon_css_generate:
-    class: Drupal\menu_icons\CssGenerate\MenuIconsCssGenerator
-    arguments: ["helloWorld"]
