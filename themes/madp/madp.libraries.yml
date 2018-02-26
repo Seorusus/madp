@@ -3,6 +3,7 @@ global-styling:
     theme:
       assets/css/couleurs.css: {}
       assets/css/main.css: {}
+      assets/css/page.css: {}
 
   js:
       assets/js/global.js: {}

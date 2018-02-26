@@ -1,0 +1,17 @@
+/** -- Theming of Offer page -- */
+.menu-anchor .menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-anchor .menu-icon {
+  width: 20%;
+}
+
+.menu-anchor .menu-icon a {
+  background-size: 11%;
+  padding: 0!important;
+  background-position: 50% 0px !important;
+  height: 128px;
+  display: block;
+}
