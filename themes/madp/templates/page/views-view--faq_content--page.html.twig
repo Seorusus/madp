@@ -37,13 +37,33 @@
     <!-- HEADER end-->
 
     <div class="clearfix"></div>
-
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- LEFT start-->
+                {% block left %}
+                    <main>
+                        {{ page.left }}
+                    </main>
+                {% endblock %}
+                <!-- LEFT end-->
+            </div>
+            <div class="col">
+                <!-- CONTENT start-->
+                {% block content %}
+                    <main>
+                        {{ page.content }}
+                    </main>
+                {% endblock %}
+                <!-- CONTENT end-->
+            </div>
+        </div>
+    </div>
     <!-- CONTENT start-->
     {% block content %}
         <main>
             {{ page.content }}
         </main>
-        <div>Test ----------------------------            test</div>
     {% endblock %}
     <!-- CONTENT end-->
 

@@ -8,6 +8,7 @@ package: 'Bootstrap'
 
 regions:
   header: 'Page Header'
+  left: 'Left sidebar'
   content: 'Page Content'
   footer: 'Page Footer'
   copyright: 'Page copyright'
