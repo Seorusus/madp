@@ -35,18 +35,30 @@
         {% endblock %}
     </header>
     <!-- HEADER end-->
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            {{ page.breadcrumb }}
+            
+            {% if node.title.value %}
+                <h1>{{ node.title.value }}</h1>
+            {% elseif page['#title'] %}
+                <h1>{{ page['#title'] }}</h1>
+            {% endif %}
+        </div>
+    </div>
+</div>
     <div class="clearfix"></div>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-md-4">
                 <!-- LEFT start-->
                 {% block left %}
                         {{ page.left }}
                 {% endblock %}
                 <!-- LEFT end-->
             </div>
-            <div class="col">
+            <div class="col-md-8">
                 <!-- CONTENT start-->
                 {% block content %}
                     <main>
