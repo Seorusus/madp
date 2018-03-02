@@ -85,21 +85,36 @@
   background: #05656a;
   border: none;
   outline:none;
+  font-weight: 700;
+  text-transform: uppercase;
 }
+
+.view-faq-theme {
+  font-family: "Gotham-Book", sans-serif;
+}
+
+
 .view-faq-theme .ui-state-default {
   color: #fff;
 }
 
 .view-faq-theme .ui-state-active .ui-icon {
-  /*background-image: url(images/ui-icons_ffffff_256x240.png)!*{iconsActive}*!;*/
+  background-image: url(../img/arrow12.png);
   position: relative;
   left: 330px;
+  background-position: center;
+  background-size: contain;
 }
 
 .view-faq-theme .ui-accordion-header-icon {
-  /*background-image: url(images/ui-icons_ffffff_256x240.png)!*{iconsActive}*!;*/
+  background-image: url(../img/arrow122.png);
   position: relative;
   left: 330px;
+  background-position: center;
+  background-size: contain;
 }
 
+.view-faq-theme .ui-accordion-content {
+  height: 100% !important;
+}
 
