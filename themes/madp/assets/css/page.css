@@ -26,7 +26,57 @@
   margin: 30px;
 }
 
+/** -- Theming of FAQ page -- */
+
 .faq-title  {
   margin: 30px;
 }
 
+.region-header .breadcrumb {
+  display: none;
+}
+
+.header-bottom {
+  background-color: #05656a;
+}
+
+.search-block {
+  background-color: #1dc6b1;
+}
+.page-title {
+  margin:1rem 0 2rem 2rem;
+  color: #fff;
+}
+
+.page-breadcrumbs {
+  margin:1rem 0 1rem 2rem;
+}
+
+.page-breadcrumbs .breadcrumb {
+  background: none;
+  border: none;
+  padding: 2rem 0;
+  margin: 0;
+}
+
+.page-breadcrumbs .breadcrumb li {
+  background: none;
+  border: none;
+  color: #ccc;
+}
+
+.region-search {
+  margin: 3rem 0 2rem 0;
+}
+
+.navigation .navbar #navbar-collapse-mobile ul li a {
+  padding: 15px 10px;
+}
+
+.navigation .navbar #navbar-collapse-mobile ul li .dropdown-menu {
+  border: solid 1px #fff;
+  border-top: none;
+  -webkit-box-shadow: -1px 3px 17px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 3px 17px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px 3px 17px 0px rgba(0,0,0,0.75);
+}
