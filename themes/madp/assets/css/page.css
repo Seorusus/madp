@@ -162,3 +162,10 @@
 .faq-questions .ui-corner-bottom {
   border: none;
 }
+
+.search-block-faq form {
+  background: url(../img/search-icon-orange.png);
+  background-position: right;
+  background-size: contain;
+  backgruond-repit: no-repit;
+}
