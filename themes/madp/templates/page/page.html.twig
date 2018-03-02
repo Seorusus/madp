@@ -36,6 +36,27 @@
     </header>
     <!-- HEADER end-->
 
+    <!-- TITLE start-->
+    <section class="header-bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="page-breadcrumbs">
+                        {{ drupal_block('breadcrumbs') }}
+                    </div>
+                    <div class="page-title">
+                        {% if node.title.value %}
+                            <h1>{{ node.title.value }}</h1>
+                        {% elseif page['#title'] %}
+                            <h1>{{ page['#title'] }}</h1>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TITLE end-->
+
     <div class="clearfix"></div>
 
     <!-- CONTENT start-->
