@@ -118,3 +118,16 @@
   height: 100% !important;
 }
 
+.ui-accordion-content a:hover {
+  color: #05656a;
+  font-weight: 600;
+}
+
+.ui-accordion-content a:active {
+  color: #05656a;
+  font-weight: 600;
+}
+
+.ui-accordion-content a {
+  text-decoration: none;
+}
