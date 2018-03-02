@@ -1,0 +1,46 @@
+uuid: a5637a8d-cc54-4dd2-9202-aa4c27e062bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_text.field_text_1
+    - field.field.paragraph.text_text.field_text_demo
+    - paragraphs.paragraphs_type.text_text
+  module:
+    - ds
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: layout_twocol
+      library: layout_discovery/twocol
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      first:
+        - field_text_demo
+      second:
+        - field_text_1
+id: paragraph.text_text.default
+targetEntityType: paragraph
+bundle: text_text
+mode: default
+content:
+  field_text_1:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    type: text_trimmed
+    region: second
+  field_text_demo:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    type: text_trimmed
+    region: first
+hidden: {  }

@@ -3,7 +3,7 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.full
   module:
     - node
     - taxonomy
@@ -223,21 +223,9 @@ display:
       row:
         type: 'entity:node'
         options:
-          view_mode: teaser
-      header:
-        entity_taxonomy_term:
-          id: entity_taxonomy_term
-          table: views
-          field: entity_taxonomy_term
           relationship: none
-          group_type: group
-          admin_label: ''
-          empty: true
-          tokenize: true
-          target: '{{ raw_arguments.tid }}'
           view_mode: full
-          bypass_access: false
-          plugin_id: entity
+      header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
@@ -284,6 +272,7 @@ display:
           relationship: none
           view_mode: default
       display_extenders: {  }
+      enabled: false
     cache_metadata:
       contexts:
         - 'languages:language_interface'
@@ -303,6 +292,35 @@ display:
         options: {  }
       path: taxonomy/term/%
       display_extenders: {  }
+      enabled: true
+      title: ''
+      defaults:
+        title: false
+    cache_metadata:
+      contexts:
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      max-age: -1
+      tags: {  }
+  page_2:
+    id: page_2
+    display_title: Page
+    display_plugin: page
+    position: 1
+    display_options:
+      query:
+        type: views_query
+        options: {  }
+      path: faq/%
+      display_extenders: {  }
+      header: {  }
+      defaults:
+        header: false
+        title: false
+      title: 'Questions Frequentes'
     cache_metadata:
       contexts:
         - 'languages:language_interface'

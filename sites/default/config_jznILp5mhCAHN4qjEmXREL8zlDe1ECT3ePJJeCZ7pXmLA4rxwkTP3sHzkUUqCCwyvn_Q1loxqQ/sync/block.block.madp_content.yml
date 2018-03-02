@@ -11,7 +11,7 @@ _core:
 id: madp_content
 theme: madp
 region: content
-weight: 2
+weight: 0
 provider: null
 plugin: system_main_block
 settings:

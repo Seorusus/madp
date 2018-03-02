@@ -1,0 +1,143 @@
+uuid: 02dcee2d-1812-435a-91a4-cd7be294818a
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_search
+    - system
+  theme:
+    - madp
+id: customsearchform
+theme: madp
+region: search
+weight: -4
+provider: null
+plugin: custom_search
+settings:
+  id: custom_search
+  label: 'Custom Search form'
+  provider: custom_search
+  label_display: '0'
+  search_box:
+    label_visibility: false
+    label: 'Search this site'
+    placeholder: 'Enter search phrase'
+    title: ''
+    size: 15
+    max_length: 128
+    weight: -10
+    region: block
+  submit:
+    text: ''
+    image_path: ''
+    weight: -4
+    region: block
+  content:
+    types:
+      application_madp: '0'
+      article: '0'
+      discover_the_offer: '0'
+      faq: '0'
+      page: '0'
+      paragraphed_content_demo: '0'
+    other: null
+    selector:
+      type: select
+      label_visibility: false
+      label: 'Search for'
+    any:
+      text: '- Any -'
+      restricts: false
+      force: false
+    excluded:
+      application_madp: application_madp
+      article: article
+      discover_the_offer: discover_the_offer
+      page: page
+      paragraphed_content_demo: paragraphed_content_demo
+      faq: '0'
+    weight: -10
+    region: block
+    page: node_search
+  criteria:
+    or:
+      display: false
+      label: 'Containing any of the words'
+      weight: -9
+      region: block
+    phrase:
+      display: false
+      label: 'Containing the phrase'
+      weight: -8
+      region: block
+    negative:
+      display: false
+      label: 'Containing none of the words'
+      weight: -7
+      region: block
+  languages:
+    languages:
+      current: '0'
+      fr: '0'
+      en: '0'
+      de: '0'
+      und: '0'
+      zxx: '0'
+    selector:
+      type: select
+      label_visibility: true
+      label: Languages
+    any:
+      text: '- Any -'
+      restricts: false
+      force: false
+    weight: -6
+    region: block
+  paths:
+    list: ''
+    selector:
+      type: select
+      label_visibility: true
+      label: 'Customize your search'
+    separator: +
+    weight: -5
+    region: block
+  taxonomy:
+    node_search:
+      type: disabled
+      depth: 0
+      label_visibility: true
+      label: Content
+      all_text: '- Any -'
+      region: block
+      weight: -7
+    user_search:
+      type: disabled
+      depth: 0
+      label_visibility: true
+      label: Users
+      all_text: '- Any -'
+      region: block
+      weight: -6
+    tags:
+      type: disabled
+      depth: null
+      label_visibility: false
+      label: ''
+      all_text: '- Any -'
+      weight: null
+      region: null
+    faq_theme:
+      type: disabled
+      depth: null
+      label_visibility: false
+      label: ''
+      all_text: '- Any -'
+      weight: null
+      region: null
+visibility:
+  request_path:
+    id: request_path
+    pages: "/faq\r\n/faq/*"
+    negate: false
+    context_mapping: {  }

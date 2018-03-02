@@ -1,0 +1,107 @@
+uuid: 0bbef67d-2207-43aa-9cc8-fc649ec6057a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.images.field_images_demo
+    - paragraphs.paragraphs_type.images
+  module:
+    - ds
+    - slick
+third_party_settings:
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      content:
+        - field_images_demo
+_core:
+  default_config_hash: SrcUVnFWa_fwHjrESiGfJISl0JVktNYE7j3YSPRGybY
+id: paragraph.images.default
+targetEntityType: paragraph
+bundle: images
+mode: default
+content:
+  field_images_demo:
+    weight: 1
+    label: hidden
+    settings:
+      style: grid
+      optionset: default
+      optionset_thumbnail: ''
+      skin: classic
+      skin_thumbnail: ''
+      image_style: max_325x325
+      thumbnail_style: ''
+      responsive_image_style: narrow
+      thumbnail_effect: ''
+      thumbnail_position: ''
+      media_switch: ''
+      ratio: ''
+      grid: null
+      grid_medium: null
+      grid_small: null
+      visible_items: null
+      layout: ''
+      thumbnail_caption: ''
+      cache: 0
+      sizes: ''
+      breakpoints:
+        xs:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        sm:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        md:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        lg:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        xl:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+      current_view_mode: default
+      background: false
+      caption:
+        title: '0'
+        alt: '0'
+      grid_header: ''
+      preserve_keys: false
+      override: false
+      overridables:
+        arrows: '0'
+        autoplay: '0'
+        dots: '0'
+        draggable: '0'
+        infinite: '0'
+        mouseWheel: '0'
+        randomize: '0'
+        variableWidth: '0'
+      skin_arrows: ''
+      skin_dots: ''
+      iframe_lazy: true
+      icon: ''
+      view_mode: ''
+      box_caption: ''
+      box_caption_custom: ''
+      box_style: ''
+      box_media_style: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    type: slick_image
+    region: content
+hidden:
+  created: true
+  uid: true

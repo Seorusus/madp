@@ -1,0 +1,18 @@
+uuid: 2f2da7a8-4ce5-4a78-bafe-5822c9a555fb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:549ea271-8161-46e2-a6fa-934a8878d1fa'
+  module:
+    - paragraphs_viewmode
+_core:
+  default_config_hash: GQK4RFszwiDZ1mB_lc7Y5XZUiV0PW38Mt9bjH0wVijs
+id: image_text
+label: 'Image + Text'
+icon_uuid: 549ea271-8161-46e2-a6fa-934a8878d1fa
+description: 'Use <em>Image + Text</em> for adding an image on the left and a text on the right.'
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

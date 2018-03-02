@@ -1,0 +1,19 @@
+uuid: d73def46-5c24-4bf8-aa0a-17f02e698663
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.application_madp
+  module:
+    - user
+id: node.application_madp.teaser
+targetEntityType: node
+bundle: application_madp
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

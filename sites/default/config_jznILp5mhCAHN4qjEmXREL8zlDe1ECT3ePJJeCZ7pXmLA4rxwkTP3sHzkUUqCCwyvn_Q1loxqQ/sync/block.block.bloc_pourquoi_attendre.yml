@@ -12,7 +12,7 @@ dependencies:
 id: bloc_pourquoi_attendre
 theme: madp
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: 'block_content:08087352-1669-444a-9b03-7d8a6e23e92e'
 settings:

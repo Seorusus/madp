@@ -1,0 +1,54 @@
+uuid: 98d22de2-4c3b-4c0a-84b7-2b134e793b18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.video.field_youtube_video
+    - paragraphs.paragraphs_type.video
+  module:
+    - ds
+    - field_formatter_class
+    - youtube
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col_wrapper
+      library: null
+      disable_css: false
+      entity_classes: no_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - field_youtube_video
+id: paragraph.video.default
+targetEntityType: paragraph
+bundle: video
+mode: default
+content:
+  field_youtube_video:
+    weight: 0
+    label: hidden
+    settings:
+      youtube_size: 640x480
+      youtube_width: ''
+      youtube_height: ''
+      youtube_autoplay: false
+      youtube_loop: false
+      youtube_showinfo: false
+      youtube_controls: false
+      youtube_autohide: false
+      youtube_iv_load_policy: false
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    type: youtube_video
+    region: ds_content
+hidden: {  }

@@ -11,7 +11,7 @@ _core:
 id: madp_help
 theme: madp
 region: content
-weight: -1
+weight: -4
 provider: null
 plugin: help_block
 settings:

@@ -1,0 +1,16 @@
+uuid: a04c485c-fb1f-4ff2-8bbc-b7841d1bcdec
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:867329d5-3590-417d-94aa-08fa8a80df54'
+  module:
+    - paragraphs_viewmode
+id: video
+label: Video
+icon_uuid: 867329d5-3590-417d-94aa-08fa8a80df54
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }
