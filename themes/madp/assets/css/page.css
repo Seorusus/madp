@@ -65,6 +65,14 @@
   color: #ccc;
 }
 
+.page-breadcrumbs .breadcrumb li a {
+  background: none;
+  border: none;
+  color: #ccc;
+  cursor: default;
+  text-decoration: none;
+}
+
 .region-search {
   margin: 3rem 0 2rem 0;
 }
@@ -91,6 +99,7 @@
 
 .view-faq-theme {
   font-family: "Gotham-Book", sans-serif;
+  margin-top: 2rem;
 }
 
 
@@ -101,7 +110,8 @@
 .view-faq-theme .ui-state-active .ui-icon {
   background-image: url(../img/arrow12.png);
   position: relative;
-  left: 330px;
+  left: 320px;
+  top: 1px;
   background-position: center;
   background-size: contain;
 }
@@ -109,7 +119,8 @@
 .view-faq-theme .ui-accordion-header-icon {
   background-image: url(../img/arrow122.png);
   position: relative;
-  left: 330px;
+  left: 320px;
+  top: 1px;
   background-position: center;
   background-size: contain;
 }
@@ -130,4 +141,24 @@
 
 .ui-accordion-content a {
   text-decoration: none;
+}
+
+.faq-questions .ui-accordion-header {
+  background: none;
+  border: none;
+  outline:none;
+  font-weight: 700;
+  color: #05656a;
+}
+
+.term-title {
+  font-weight: 700;
+  color: #05656a;
+  font-size: 2rem;
+  margin: 2rem 0 2rem 2rem;
+  padding: 0;
+}
+
+.faq-questions .ui-corner-bottom {
+  border: none;
 }

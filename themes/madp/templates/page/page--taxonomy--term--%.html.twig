@@ -45,11 +45,8 @@
                 {{ drupal_block('breadcrumbs') }}
                 </div>
                 <div class="page-title">
-                {% if node.title.value %}
-                    <h1>{{ node.title.value }}</h1>
-                {% elseif page['#title'] %}
-                    <h1>{{ page['#title'] }}</h1>
-                {% endif %}
+                    <h1>{{ 'Questions fréquentes'|t }}
+                    </h1>
                 </div>
             </div>
         </div>
@@ -83,6 +80,13 @@
                 <!-- CONTENT start-->
                 {% block content %}
                     <main>
+                        <div class="term-title">
+                            {% if node.title.value %}
+                                <h2>{{ node.title.value }}</h2>
+                            {% elseif page['#title'] %}
+                                <h2>{{ page['#title'] }}</h2>
+                            {% endif %}
+                        </div>
                         {{ page.content }}
                     </main>
                 {% endblock %}
