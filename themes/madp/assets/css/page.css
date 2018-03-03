@@ -172,3 +172,26 @@
 
 }
 
+/** -- Theming of MADP Direct page -- */
+.madp-menu-anchor .menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.madp-menu-anchor .menu-icon {
+  width: 20%;
+  position: relative;
+  height: 200px;
+}
+
+.madp-menu-anchor .menu-icon a {
+  background-size: 11%;
+  padding: 37px 0 0 0!important;
+  background-position: 50% 4px !important;
+  height: 85px;
+  display: block;
+  font-size: 1.3rem;
+  text-align: center;
+  bottom: -7px;
+}
