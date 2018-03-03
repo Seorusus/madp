@@ -1,0 +1,16 @@
+{%
+  set classes = [
+    's-tile' ~ field_name|clean_class,
+  ]
+%}
+
+<div class="s-tile row">
+  {% for item in items %}
+    <div{{ item.attributes.addClass('s-tile__item col-md-4 col-sm-12 col-xs-12') }}>
+      <div class="s-tile__item-inner">
+        {{ item.content }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+

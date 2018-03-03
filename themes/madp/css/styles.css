@@ -1,0 +1,89 @@
+.paragraph__title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #EC5B32;
+  text-transform: uppercase; }
+  .paragraph__title::after {
+    content: '';
+    display: block;
+    width: 180px;
+    height: 3px; }
+
+.paragraph__text {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #2F2F2F; }
+
+.field--name-field-paragraph-title {
+  margin: 40px 0;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #EC5B32;
+  text-transform: uppercase; }
+  .field--name-field-paragraph-title::after {
+    content: '';
+    display: block;
+    width: 170px;
+    height: 3px;
+    margin: 15px 0;
+    background: #EC5B32; }
+
+.field--name-field-paragraph-description {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #484848;
+  margin: 10px 0; }
+
+.field--name-field-paragraph-link {
+  margin-bottom: 40px; }
+  .field--name-field-paragraph-link a {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #00656B; }
+
+.s-tile__item {
+  font-size: 19px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .s-tile__item-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 260px;
+    padding: 0 25%;
+    background: #1dc6b1; }
+    .s-tile__item:nth-child(3) .s-tile__item-inner,
+    .s-tile__item:nth-child(4) .s-tile__item-inner,
+    .s-tile__item:nth-child(9) .s-tile__item-inner {
+      background: #EC5B32; }
+    .s-tile__item:nth-child(2) .s-tile__item-inner,
+    .s-tile__item:nth-child(6) .s-tile__item-inner,
+    .s-tile__item:nth-child(8) .s-tile__item-inner {
+      background: #00656B; }
+    .s-tile__item-inner::after {
+      content: '';
+      display: block;
+      width: 76px;
+      height: 2px;
+      margin: 15px 0;
+      background: white; }
+
+/*# sourceMappingURL=styles.css.map */

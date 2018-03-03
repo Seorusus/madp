@@ -41,6 +41,7 @@ module:
   language: 0
   layout_discovery: 0
   link: 0
+  link_css: 0
   locale: 0
   madp_app: 0
   menu_breadcrumb: 0
