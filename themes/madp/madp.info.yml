@@ -12,6 +12,7 @@ regions:
   search: 'Search Region'
   content: 'Page Content'
   footer: 'Page Footer'
+  footer_top: 'Footer Top'
   copyright: 'Page copyright'
 
 libraries:

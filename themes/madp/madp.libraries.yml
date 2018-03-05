@@ -11,6 +11,10 @@ global-styling:
       assets/js/anchor.js: {}
       js/scripts.js: {}
 
+  dependencies:
+      - core/jquery
+      - core/jquery.once
+
 
 select2:
     css:

@@ -1,0 +1,28 @@
+.s-paragraph--features2 {
+  &__item {
+  }
+}
+
+
+.s-feature2 {
+  padding: 30px 20px;
+  text-align: center;
+  border: 7px solid $color-2;
+  line-height: 1.2;
+  height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    color: $color-2;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  &__text {
+    font-size: 16px;
+    color: $color-5;
+  }
+}
+
