@@ -1,0 +1,18 @@
+uuid: febc20c5-7e02-438f-bf0b-da8828612df1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Application MADP'
+type: application_madp
+description: 'Page qui charge en son contenu l''application MADP (VueJS)'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

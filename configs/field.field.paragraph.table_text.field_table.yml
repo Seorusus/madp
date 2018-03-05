@@ -1,0 +1,29 @@
+uuid: 39f42c5c-f4e1-4f1b-bf76-68574d656828
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_table
+    - paragraphs.paragraphs_type.table_text
+  module:
+    - tablefield
+id: paragraph.table_text.field_table
+field_name: field_table
+entity_type: paragraph
+bundle: table_text
+label: Table
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  export: 0
+  restrict_rebuild: 1
+  restrict_import: 1
+  lock_values: 0
+  cell_processing: '0'
+  empty_rules:
+    ignore_table_structure: 0
+    ignore_table_header: 0
+field_type: tablefield

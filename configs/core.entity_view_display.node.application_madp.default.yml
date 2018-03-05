@@ -1,0 +1,18 @@
+uuid: f1db78a2-9967-4ece-a494-87ead703e3ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.application_madp
+  module:
+    - user
+id: node.application_madp.default
+targetEntityType: node
+bundle: application_madp
+mode: default
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

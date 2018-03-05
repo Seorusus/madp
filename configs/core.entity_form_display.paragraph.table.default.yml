@@ -1,0 +1,25 @@
+uuid: fa98c08d-9070-4d21-b1f3-9207a799b6af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.table.field_table
+    - paragraphs.paragraphs_type.table
+  module:
+    - tablefield
+id: paragraph.table.default
+targetEntityType: paragraph
+bundle: table
+mode: default
+content:
+  field_table:
+    weight: 0
+    settings:
+      input_type: textfield
+    third_party_settings: {  }
+    type: tablefield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

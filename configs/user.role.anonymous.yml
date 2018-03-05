@@ -1,0 +1,28 @@
+uuid: 41c773fa-aeb0-40b6-b496-6a6dbfaba29b
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view paragraph content image_text'
+  - 'view paragraph content images'
+  - 'view paragraph content images_slider'
+  - 'view paragraph content nested_paragraph'
+  - 'view paragraph content table'
+  - 'view paragraph content table_image'
+  - 'view paragraph content table_text'
+  - 'view paragraph content test_paragraph'
+  - 'view paragraph content text'
+  - 'view paragraph content text_image'
+  - 'view paragraph content text_text'
+  - 'view paragraph content video'

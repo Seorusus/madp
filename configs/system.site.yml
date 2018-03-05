@@ -1,0 +1,14 @@
+uuid: b2b8ceba-830f-4ffb-b72b-d025768b95d4
+name: Drupal
+mail: peter.awad@netapsys.fr
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

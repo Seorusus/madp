@@ -1,0 +1,18 @@
+uuid: 1a5b1adf-4e8d-4d4a-baa7-dd0f0fdd3a55
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:1d6a732b-3b76-41a7-9004-16b6cae72c7d'
+  module:
+    - paragraphs_viewmode
+_core:
+  default_config_hash: boOxRvu533PdazqquOAQhGK6j7P-QrZ01_6rKpuO9XM
+id: text
+label: Text
+icon_uuid: 1d6a732b-3b76-41a7-9004-16b6cae72c7d
+description: 'Use <em>Text</em> for adding a text.'
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

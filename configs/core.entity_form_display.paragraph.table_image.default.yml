@@ -1,0 +1,19 @@
+uuid: abf54dbd-404f-46ef-9e01-02499278b54c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.table_image.field_image_demo
+    - field.field.paragraph.table_image.field_table
+    - paragraphs.paragraphs_type.table_image
+id: paragraph.table_image.default
+targetEntityType: paragraph
+bundle: table_image
+mode: default
+content: {  }
+hidden:
+  created: true
+  field_image_demo: true
+  field_table: true
+  status: true
+  uid: true

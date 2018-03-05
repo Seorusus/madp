@@ -1,0 +1,25 @@
+uuid: c5ea20b3-31e6-4d19-9438-319b02db658b
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_tables_filter
+name: 'Text format for Editor'
+format: text_format_for_editor
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <u> <p> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <hr>'
+      filter_html_help: false
+      filter_html_nofollow: false
+  filter_responsive_tables_filter:
+    id: filter_responsive_tables_filter
+    provider: responsive_tables_filter
+    status: true
+    weight: 0
+    settings: {  }

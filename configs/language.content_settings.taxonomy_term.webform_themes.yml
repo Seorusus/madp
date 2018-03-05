@@ -1,0 +1,11 @@
+uuid: 17229e75-a216-4ea7-8dbe-6fb10c59b854
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.webform_themes
+id: taxonomy_term.webform_themes
+target_entity_type_id: taxonomy_term
+target_bundle: webform_themes
+default_langcode: site_default
+language_alterable: false

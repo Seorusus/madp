@@ -1,0 +1,16 @@
+uuid: 41fa8667-d9c5-49c8-8e16-826a0cb2a69c
+langcode: en
+status: true
+dependencies: {  }
+id: media
+label: Media
+groups:
+  first:
+    label: First
+    id: first
+    weight: '0'
+  second:
+    label: Second
+    id: second
+    weight: '1'
+map: {  }

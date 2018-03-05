@@ -1,0 +1,9 @@
+title: Kontakt
+settings:
+  confirmation_message: 'Ihre Nachricht wurde gesendet.'
+handlers:
+  email_confirmation:
+    settings:
+      from_name: Standardeinstellung
+  email_notification:
+    label: E-Mail-Benachrichtigung

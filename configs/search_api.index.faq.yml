@@ -1,0 +1,34 @@
+uuid: 43961c0a-4f7c-4537-8ee3-02acdd9be525
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.server.faq
+  module:
+    - search_api
+    - node
+id: faq
+name: faq
+description: ''
+read_only: false
+field_settings: {  }
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected:
+        - faq
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  aggregated_field: {  }
+  add_url: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: faq

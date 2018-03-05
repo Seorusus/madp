@@ -1,0 +1,11 @@
+uuid: 441708ff-5824-4641-9ee0-d4e5853edf38
+langcode: en
+status: true
+dependencies: {  }
+id: node__madp_direct
+label: 'Content: MADP Direct'
+tags:
+  title: 'Nous connaître – MADP Direct Complémentaire chômage'
+  keywords: 'Nous connaître'
+  description: 'Nous connaître – MADP Direct Complémentaire chômage'
+  abstract: 'Nous connaître – MADP Direct Complémentaire chômage'

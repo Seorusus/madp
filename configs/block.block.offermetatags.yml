@@ -1,0 +1,29 @@
+uuid: d6b17a14-3202-45cb-a456-e6052279c6a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.offer-metatags
+  module:
+    - system
+  theme:
+    - seven
+id: offermetatags
+theme: seven
+region: content
+weight: -3
+provider: null
+plugin: 'system_menu_block:offer-metatags'
+settings:
+  id: 'system_menu_block:offer-metatags'
+  label: 'Offer metatags'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/7/edit
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: 12913f4a-69f6-40a5-9547-d1c59c230509
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - madp
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: madp_messages
+theme: madp
+region: content
+weight: 1
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  provider: system
+  label_display: '0'
+visibility: {  }

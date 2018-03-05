@@ -1,0 +1,9 @@
+handlers:
+  email_notification:
+    settings:
+      subject: défaut
+      body: défaut
+  email_reminder:
+    settings:
+      from_name: défaut
+      body: défaut

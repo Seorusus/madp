@@ -1,0 +1,16 @@
+uuid: 9fd45f87-20c3-4fc0-8473-abc07846566c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:85bebc17-a6c1-434e-9ce0-80bc88c46fa7'
+  module:
+    - paragraphs_viewmode
+id: text_video
+label: 'Text + Video'
+icon_uuid: 85bebc17-a6c1-434e-9ce0-80bc88c46fa7
+description: 'Use Test + Video for adding a text on the left and an video on the right.'
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

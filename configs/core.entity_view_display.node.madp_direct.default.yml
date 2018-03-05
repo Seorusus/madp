@@ -1,0 +1,280 @@
+uuid: 42a97766-e8dc-4c71-8d6d-44aa92198a83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.madp_direct.field_madp_menu_anchor
+    - field.field.node.madp_direct.field_paragraph
+    - field.field.node.madp_direct.field_paragraph_block_2
+    - field.field.node.madp_direct.field_paragraph_block_3
+    - field.field.node.madp_direct.field_paragraph_nos_valeurs
+    - field.field.node.madp_direct.field_paragraph_nos_valeurs_2
+    - field.field.node.madp_direct.field_paragraph_nos_valeurs_3
+    - field.field.node.madp_direct.field_paragraph_nos_valeurs_4
+    - node.type.madp_direct
+  module:
+    - block_field
+    - ds
+    - entity_reference_revisions
+    - field_formatter_class
+    - field_group
+    - user
+third_party_settings:
+  field_group:
+    group_nors_valeurs:
+      children:
+        - group_expertise
+        - group_transparence
+        - group_dimension_humaine
+        - group_mutualiste
+      parent_name: group_nors_valeurs_1
+      weight: 5
+      format_type: tabs
+      format_settings:
+        label: 'Nos valeurs tabs'
+        direction: vertical
+        id: ''
+        classes: nos-valeurs
+      label: 'Nos valeurs tabs'
+      region: hidden
+    group_transparence:
+      children:
+        - field_paragraph_nos_valeurs
+      parent_name: group_nors_valeurs
+      weight: 7
+      format_type: tab
+      format_settings:
+        label: Transparence
+        formatter: closed
+        description: ''
+        id: ''
+        classes: '_nos-valeurs-element first'
+      label: Transparence
+      region: hidden
+    group_expertise:
+      children:
+        - field_paragraph_nos_valeurs_2
+      parent_name: group_nors_valeurs
+      weight: 6
+      format_type: tab
+      format_settings:
+        label: Expertise
+        formatter: closed
+        description: ''
+        id: ''
+        classes: '_nos-valeurs-element second'
+      label: Expertise
+      region: hidden
+    group_dimension_humaine:
+      children:
+        - field_paragraph_nos_valeurs_3
+      parent_name: group_nors_valeurs
+      weight: 8
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: '_nos-valeurs-element third'
+        formatter: closed
+        description: ''
+      label: 'Dimension humaine'
+      region: hidden
+    group_mutualiste:
+      children:
+        - field_paragraph_nos_valeurs_4
+      parent_name: group_nors_valeurs
+      weight: 9
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: '_nos-valeurs-element fourth'
+        formatter: closed
+        description: ''
+      label: Mutualiste
+      region: hidden
+    group_block_1:
+      children:
+        - field_paragraph
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      format_settings:
+        label: 'Une assurance a vorte service'
+        element: div
+        show_label: true
+        label_element: h3
+        attributes: anchor
+        effect: none
+        speed: fast
+        id: block_1
+        classes: block_1
+      label: 'Une assurance a vorte service'
+      region: hidden
+    group_100_digital:
+      children:
+        - field_paragraph_block_2
+      parent_name: ''
+      weight: 2
+      format_type: html_element
+      format_settings:
+        label: '100% Digital'
+        element: div
+        show_label: true
+        label_element: h3
+        attributes: anchor
+        effect: none
+        speed: fast
+        id: block_2
+        classes: block_2
+      label: '100% Digital'
+      region: hidden
+    group_notre_histoire:
+      children:
+        - field_paragraph_block_3
+      parent_name: ''
+      weight: 3
+      format_type: html_element
+      format_settings:
+        label: 'Notre histoire'
+        open: true
+        id: block_3
+        classes: block_3
+        element: div
+        show_label: false
+        label_element: h3
+        effect: none
+        speed: fast
+        attributes: ''
+      label: 'Notre histoire'
+      region: hidden
+    group_nors_valeurs_1:
+      children:
+        - group_nors_valeurs
+      parent_name: ''
+      weight: 4
+      format_type: html_element
+      format_settings:
+        label: 'Nors valeurs'
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+        id: block_4
+        classes: ''
+      label: 'Nors valeurs'
+      region: hidden
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: no_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - field_madp_menu_anchor
+        - group_block_1
+        - field_paragraph_block_3
+        - field_paragraph_block_2
+        - group_100_digital
+        - field_paragraph
+        - group_notre_histoire
+        - group_nors_valeurs_1
+        - group_nors_valeurs
+        - group_expertise
+        - group_transparence
+        - group_dimension_humaine
+        - group_mutualiste
+        - field_paragraph_nos_valeurs
+        - field_paragraph_nos_valeurs_2
+        - field_paragraph_nos_valeurs_3
+        - field_paragraph_nos_valeurs_4
+id: node.madp_direct.default
+targetEntityType: node
+bundle: madp_direct
+mode: default
+content:
+  field_madp_menu_anchor:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: menu-anchor
+    type: block_field
+    region: ds_content
+  field_paragraph:
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: ds_content
+  field_paragraph_block_2:
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: ds_content
+  field_paragraph_block_3:
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: ds_content
+  field_paragraph_nos_valeurs:
+    type: entity_reference_revisions_entity_view
+    weight: 24
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: ds_content
+  field_paragraph_nos_valeurs_2:
+    type: entity_reference_revisions_entity_view
+    weight: 25
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: ds_content
+  field_paragraph_nos_valeurs_3:
+    type: entity_reference_revisions_entity_view
+    weight: 26
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: ds_content
+  field_paragraph_nos_valeurs_4:
+    type: entity_reference_revisions_entity_view
+    weight: 27
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: ds_content
+hidden:
+  langcode: true
+  links: true
