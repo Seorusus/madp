@@ -1,0 +1,65 @@
+.s-paragraph-string {
+  font-size: 16px;
+  color: $color-3;
+  line-height: 1.2;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+
+    &::before {
+      content: '';
+      display: block;
+      @include sprite($med);
+      margin-bottom: 10px;
+    }
+    &::after {
+      content: '';
+      display: block;
+      margin-top: 10px;
+      @include sprite($one);
+    }
+    &:nth-child(2){
+      &::before {
+        @include sprite($thumbs);
+      }
+      &::after {
+        @include sprite($two);
+      }
+    }
+    &:nth-child(3){
+      &::before {
+        @include sprite($umbrella);
+      }
+      &::after {
+        @include sprite($three);
+      }
+    }
+    &:nth-child(4){
+      &::before {
+        @include sprite($question);
+      }
+      &::after {
+        @include sprite($four);
+      }
+    }
+    &:nth-child(5){
+      &::before {
+        @include sprite($question);
+      }
+      &::after {
+        @include sprite($five);
+      }
+    }
+  }
+}
+
+
+

@@ -39,16 +39,19 @@
  */
 #}
 {%
-  set classes = [
-    'paragraph',
-    'paragraph--type--' ~ paragraph.bundle|clean_class,
-    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
-  ]
+  set classes, paragraph_id = [
+  's-paragraph',
+  's-paragraph--' ~ paragraph.bundle|clean_class,
+  'row',
+],
+  's-paragraph--' ~ paragraph.id()
 %}
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
+  <div{{ attributes.addClass(classes) }} id="{{ paragraph_id }}">
     {% block content %}
+    <div class="col-md-12 col-sm-12 col-xs-12">
       {{ content }}
+    </div>
     {% endblock %}
   </div>
 {% endblock paragraph %}

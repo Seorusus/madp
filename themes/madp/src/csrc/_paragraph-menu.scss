@@ -1,0 +1,49 @@
+.s-paragraph-menu {
+  font-size: 16px;
+  color: $color-3;
+  line-height: 1.2;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+
+    a {
+      font-size: inherit;
+      color: inherit;
+      line-height: inherit;
+      &::before {
+        content: '';
+        display: block;
+        @include sprite($med);
+        margin-bottom: 10px;
+      }
+    }
+
+
+    &:nth-child(2){
+      & a::before {
+        @include sprite($thumbs);
+      }
+    }
+    &:nth-child(3){
+      & a::before {
+        @include sprite($umbrella);
+      }
+    }
+    &:nth-child(4){
+      & a::before {
+        @include sprite($question);
+      }
+    }
+  }
+}
+
+
+

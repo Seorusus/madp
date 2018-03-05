@@ -1,0 +1,15 @@
+{%
+  set classes, paragraph_id = [
+  's-paragraph',
+  's-paragraph--' ~ paragraph.bundle|clean_class,
+  'row',
+],
+  's-paragraph--' ~ paragraph.id()
+%}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }} id="{{ paragraph_id }}">
+    {% block content %}
+      {{ content }}
+    {% endblock %}
+  </div>
+{% endblock paragraph %}

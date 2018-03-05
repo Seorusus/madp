@@ -1,0 +1,8 @@
+<ul class="s-paragraph-string row">
+  {% for item in items %}
+    <li{{ item.attributes.addClass('s-paragraph-string__item') }}>
+      {{ item.content }}
+    </li>
+  {% endfor %}
+</ul>
+

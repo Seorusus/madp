@@ -1,0 +1,43 @@
+.s-tile { // field--field-paragraph-tile.html.twig
+  &__item {
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    &-inner {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 260px;
+      padding: 0 25%;
+      background: $color-2;
+
+      .s-tile__item:nth-child(3) &,
+      .s-tile__item:nth-child(4) &,
+      .s-tile__item:nth-child(9) & {
+        background: $color-1;
+      }
+
+      .s-tile__item:nth-child(2) &,
+      .s-tile__item:nth-child(6) &,
+      .s-tile__item:nth-child(8) & {
+        background: $color-3;
+      }
+
+      &::after {
+        content: '';
+        display: block;
+        width: 76px;
+        height: 2px;
+        margin: 15px 0;
+        background: white;
+      }
+    }
+  }
+}

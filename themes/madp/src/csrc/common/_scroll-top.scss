@@ -1,0 +1,14 @@
+.s-scroll-top {
+  font-size: 0;
+  position:fixed;
+  bottom: 250px;
+  right: 50px;
+  border-radius: 100%;
+  box-shadow: 0 0 10px 3px rgba(47,47,47, 0.2);
+  display:none;
+  @include sprite($up);
+  transition: 0.5s ease all;
+  &:hover {
+    box-shadow: none;
+  }
+}

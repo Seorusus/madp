@@ -9,6 +9,7 @@ global-styling:
   js:
       assets/js/global.js: {}
       assets/js/anchor.js: {}
+      js/scripts.js: {}
 
 
 select2:

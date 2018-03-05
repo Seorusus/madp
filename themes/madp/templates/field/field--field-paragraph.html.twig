@@ -1,0 +1,12 @@
+{%
+  set classes = [
+    's-tile' ~ field_name|clean_class,
+  ]
+%}
+
+<div class="s-paragraph-main container">
+  {% for item in items %}
+    {{ item.content }}
+  {% endfor %}
+</div>
+

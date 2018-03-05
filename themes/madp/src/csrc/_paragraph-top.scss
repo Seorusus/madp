@@ -1,0 +1,10 @@
+.s-paragraph-top {
+  background-image: linear-gradient(to top, white 160px, $color-3 0%);
+
+  .field--name-field-paragraph-text {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+}
