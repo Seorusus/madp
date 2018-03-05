@@ -1,8 +1,0 @@
-uuid: e51316ae-b348-4520-9f3b-021786fee5dc
-langcode: fr
-status: true
-dependencies: {  }
-id: offer-anchors
-label: 'Offer anchors'
-description: ''
-locked: false

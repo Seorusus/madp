@@ -1,0 +1,25 @@
+uuid: 5c6791cb-9a32-46a7-862f-c41b62105771
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_menu_anchor
+    - node.type.discover_the_offer
+  module:
+    - block_field
+id: node.discover_the_offer.field_menu_anchor
+field_name: field_menu_anchor
+entity_type: node
+bundle: discover_the_offer
+label: 'Menu anchor'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    plugin_id: 'system_menu_block:offer-anchors'
+    settings: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

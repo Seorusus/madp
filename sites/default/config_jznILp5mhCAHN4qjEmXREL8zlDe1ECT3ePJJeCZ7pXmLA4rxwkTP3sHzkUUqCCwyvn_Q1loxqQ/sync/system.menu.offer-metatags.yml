@@ -1,8 +1,0 @@
-uuid: 2e83aaf9-156b-44f0-a4ac-f7492ed98ab8
-langcode: fr
-status: true
-dependencies: {  }
-id: offer-metatags
-label: 'Offer metatags'
-description: ''
-locked: false

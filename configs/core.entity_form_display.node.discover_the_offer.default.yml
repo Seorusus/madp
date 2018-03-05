@@ -3,12 +3,74 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.discover_the_offer.field_menu_anchor
     - field.field.node.discover_the_offer.field_paragraph
-    - field.field.node.discover_the_offer.field_paragraph_top
+    - field.field.node.discover_the_offer.field_paragraph_block_2
+    - field.field.node.discover_the_offer.field_paragraph_block_3
+    - field.field.node.discover_the_offer.field_paragraph_block_4
     - node.type.discover_the_offer
   module:
+    - field_group
     - paragraphs
     - path
+third_party_settings:
+  field_group:
+    group_pourquoi_une:
+      children:
+        - field_paragraph
+      parent_name: ''
+      weight: 1
+      format_type: details
+      format_settings:
+        label: 'Pourquoi une assurance chômage?'
+        open: true
+        required_fields: true
+        id: block_1
+        classes: block_1
+      label: 'Pourquoi une assurance chômage?'
+      region: content
+    group_gerez_simplement_votre:
+      children:
+        - field_paragraph_block_2
+      parent_name: ''
+      weight: 2
+      format_type: details
+      format_settings:
+        label: 'Gérez simplement votre contrat en ligne'
+        open: true
+        required_fields: true
+        id: block_2
+        classes: block_2
+      label: 'Gérez simplement votre contrat en ligne'
+      region: content
+    group_comment_gerer:
+      children:
+        - field_paragraph_block_3
+      parent_name: ''
+      weight: 3
+      format_type: details
+      format_settings:
+        label: 'Comment gérer un sinistre?'
+        open: true
+        required_fields: true
+        id: block_3
+        classes: block_3
+      label: 'Comment gérer un sinistre?'
+      region: content
+    group_qui_peut:
+      children:
+        - field_paragraph_block_4
+      parent_name: ''
+      weight: 4
+      format_type: details
+      format_settings:
+        label: 'Qui peut souscrire?'
+        open: true
+        required_fields: true
+        id: block_4
+        classes: block_4
+      label: 'Qui peut souscrire?'
+      region: content
 id: node.discover_the_offer.default
 targetEntityType: node
 bundle: discover_the_offer
@@ -28,9 +90,37 @@ content:
       default_paragraph_type: _none
     third_party_settings: {  }
     region: content
-  field_paragraph_top:
+  field_paragraph_block_2:
     type: paragraphs
-    weight: 1
+    weight: 26
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: all
+      add_mode: modal
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+  field_paragraph_block_3:
+    type: paragraphs
+    weight: 27
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: all
+      add_mode: modal
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+  field_paragraph_block_4:
+    type: paragraphs
+    weight: 5
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -44,14 +134,14 @@ content:
     region: content
   langcode:
     type: language_select
-    weight: 4
+    weight: 6
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 3
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -65,6 +155,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_menu_anchor: true
   promote: true
   status: true
   sticky: true
