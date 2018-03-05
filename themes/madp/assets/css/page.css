@@ -172,6 +172,25 @@
 
 }
 
+.search-block-form {
+  margin: 4rem 0;
+}
+
+.search-block-form .btn-primary {
+  color: #fff;
+  background-color: #fff;
+  border: none;
+}
+
+.search-block-form .glyphicon-search:before {
+  content: "\e003";
+  color: orange;
+  font-size: 2.5rem;
+}
+
+.search-block-form .form-search {
+  height: 4.3rem;
+}
 /** -- Theming of MADP Direct page -- */
 .madp-menu-anchor .menu {
   display: flex;
