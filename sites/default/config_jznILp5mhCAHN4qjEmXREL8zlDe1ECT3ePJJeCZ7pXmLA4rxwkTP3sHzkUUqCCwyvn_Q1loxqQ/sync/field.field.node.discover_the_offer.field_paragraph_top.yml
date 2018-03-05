@@ -1,18 +1,17 @@
-uuid: a8d85e7b-4201-4bc5-bb50-7bc1f6613b6b
+uuid: 3db9f7fc-2e34-45ea-9bf5-0ade8909c836
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_paragraph
+    - field.storage.node.field_paragraph_top
     - node.type.discover_the_offer
-    - paragraphs.paragraphs_type.nested_paragraph
   module:
     - entity_reference_revisions
-id: node.discover_the_offer.field_paragraph
-field_name: field_paragraph
+id: node.discover_the_offer.field_paragraph_top
+field_name: field_paragraph_top
 entity_type: node
 bundle: discover_the_offer
-label: Paragraphs
+label: 'Paragraphs top'
 description: ''
 required: false
 translatable: false
@@ -21,56 +20,64 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 1
-    target_bundles:
-      nested_paragraph: nested_paragraph
+    negate: 0
+    target_bundles: null
     target_bundles_drag_drop:
+      anmen:
+        weight: 20
+        enabled: false
       images:
-        weight: 12
-        enabled: false
-      images_slider:
-        weight: 13
-        enabled: false
-      image_text:
-        weight: 14
-        enabled: false
-      nested_paragraph:
-        enabled: true
-        weight: 15
-      table:
-        weight: 16
-        enabled: false
-      table_image:
-        weight: 17
-        enabled: false
-      table_text:
-        weight: 18
-        enabled: false
-      test_paragraph:
-        weight: 19
-        enabled: false
-      imtex:
-        weight: 20
-        enabled: false
-      text:
-        weight: 20
-        enabled: false
-      text_image:
         weight: 21
         enabled: false
-      text_text:
+      images_slider:
         weight: 22
         enabled: false
-      texim:
+      image_text:
+        weight: 23
+        enabled: false
+      imtex:
+        weight: 24
+        enabled: false
+      nested_paragraph:
+        weight: 25
+        enabled: false
+      promotop:
         weight: 26
         enabled: false
-      tile:
+      promo_top:
+        weight: 27
+        enabled: false
+      table:
+        weight: 28
+        enabled: false
+      table_image:
+        weight: 29
+        enabled: false
+      table_text:
         weight: 30
         enabled: false
-      video:
+      test_paragraph:
         weight: 31
         enabled: false
-      vitex:
+      texim:
         weight: 32
+        enabled: false
+      text:
+        weight: 33
+        enabled: false
+      text_image:
+        weight: 34
+        enabled: false
+      text_text:
+        weight: 35
+        enabled: false
+      tile:
+        weight: 36
+        enabled: false
+      video:
+        weight: 37
+        enabled: false
+      vitex:
+        weight: 38
         enabled: false
 field_type: entity_reference_revisions

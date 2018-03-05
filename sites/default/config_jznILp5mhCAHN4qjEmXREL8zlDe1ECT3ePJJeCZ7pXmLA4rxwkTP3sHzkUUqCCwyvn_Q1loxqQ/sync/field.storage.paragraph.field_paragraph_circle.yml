@@ -1,11 +1,11 @@
-uuid: e34884a3-0d1b-4f7b-928f-f42e99b539ae
+uuid: 3e6cdb06-03ed-46b5-b386-5266ee79a9ac
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_paragraph_description
-field_name: field_paragraph_description
+id: paragraph.field_paragraph_circle
+field_name: field_paragraph_circle
 entity_type: paragraph
 type: string
 settings:
@@ -14,7 +14,7 @@ settings:
   case_sensitive: false
 module: core
 locked: false
-cardinality: 1
+cardinality: 4
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

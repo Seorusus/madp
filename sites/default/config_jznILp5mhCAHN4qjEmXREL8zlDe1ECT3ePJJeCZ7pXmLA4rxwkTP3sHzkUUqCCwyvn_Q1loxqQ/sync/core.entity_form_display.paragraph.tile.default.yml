@@ -3,26 +3,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.tile.field_paragraph_description
     - field.field.paragraph.tile.field_paragraph_link
+    - field.field.paragraph.tile.field_paragraph_text
     - field.field.paragraph.tile.field_paragraph_tile
     - field.field.paragraph.tile.field_paragraph_title
     - paragraphs.paragraphs_type.tile
   module:
     - link
+    - text
 id: paragraph.tile.default
 targetEntityType: paragraph
 bundle: tile
 mode: default
 content:
-  field_paragraph_description:
-    weight: 1
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_paragraph_link:
     weight: 2
     settings:
@@ -30,6 +23,14 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
+  field_paragraph_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
     region: content
   field_paragraph_tile:
     weight: 3
