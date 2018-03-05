@@ -1,0 +1,21 @@
+uuid: 130738c8-79d4-4f58-83dd-27f085d9893b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_text
+    - paragraphs.paragraphs_type.vitex
+  module:
+    - text
+id: paragraph.vitex.field_p_text
+field_name: field_p_text
+entity_type: paragraph
+bundle: vitex
+label: 'Paragraph text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

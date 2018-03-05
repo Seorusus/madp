@@ -1,0 +1,21 @@
+uuid: 7b440ff2-05b5-4b67-9105-6e557ccc8938
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_text
+    - paragraphs.paragraphs_type.texim
+  module:
+    - text
+id: paragraph.texim.field_p_text
+field_name: field_p_text
+entity_type: paragraph
+bundle: texim
+label: 'Paragraph text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

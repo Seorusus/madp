@@ -1,0 +1,14 @@
+uuid: d0360be5-73c9-4ada-857f-7dd0a345cf20
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: texim
+label: 'Text and image'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }
