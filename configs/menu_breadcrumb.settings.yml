@@ -4,7 +4,7 @@ append_current_page: false
 current_page_as_link: false
 append_member_page: true
 member_page_as_link: false
-remove_home: true
+remove_home: false
 add_home: true
 home_as_site_name: false
 menu_breadcrumb_menus:

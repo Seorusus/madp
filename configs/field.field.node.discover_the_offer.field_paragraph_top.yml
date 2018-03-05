@@ -1,4 +1,4 @@
-uuid: 3db9f7fc-2e34-45ea-9bf5-0ade8909c836
+uuid: 4338157d-7221-45e9-b286-01ac0ff9244d
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ id: node.discover_the_offer.field_paragraph_top
 field_name: field_paragraph_top
 entity_type: node
 bundle: discover_the_offer
-label: 'Paragraphs top'
+label: 'Paragraph top'
 description: ''
 required: false
 translatable: false
@@ -23,61 +23,82 @@ settings:
     negate: 0
     target_bundles: null
     target_bundles_drag_drop:
-      anmen:
-        weight: 20
-        enabled: false
-      images:
-        weight: 21
-        enabled: false
-      images_slider:
-        weight: 22
-        enabled: false
-      image_text:
-        weight: 23
-        enabled: false
-      imtex:
-        weight: 24
-        enabled: false
-      nested_paragraph:
-        weight: 25
-        enabled: false
-      promotop:
-        weight: 26
-        enabled: false
-      promo_top:
+      2line_tile:
         weight: 27
         enabled: false
-      table:
+      anmen:
         weight: 28
         enabled: false
-      table_image:
+      features2:
         weight: 29
         enabled: false
-      table_text:
+      images:
         weight: 30
         enabled: false
-      test_paragraph:
+      images_slider:
         weight: 31
         enabled: false
-      texim:
+      image_text:
         weight: 32
         enabled: false
-      text:
+      imtex:
         weight: 33
         enabled: false
-      text_image:
+      nested_paragraph:
         weight: 34
         enabled: false
-      text_text:
+      paragraph_feature:
         weight: 35
         enabled: false
-      tile:
+      promotop:
         weight: 36
         enabled: false
-      video:
+      tab:
         weight: 37
         enabled: false
-      vitex:
+      table:
         weight: 38
+        enabled: false
+      table_image:
+        weight: 39
+        enabled: false
+      table_text:
+        weight: 40
+        enabled: false
+      tabs:
+        weight: 41
+        enabled: false
+      test_paragraph:
+        weight: 42
+        enabled: false
+      texim:
+        weight: 43
+        enabled: false
+      text:
+        weight: 44
+        enabled: false
+      text_image:
+        weight: 45
+        enabled: false
+      text_text:
+        weight: 46
+        enabled: false
+      text_text_text:
+        weight: 47
+        enabled: false
+      text_video:
+        weight: 48
+        enabled: false
+      tile:
+        weight: 49
+        enabled: false
+      title_text:
+        weight: 50
+        enabled: false
+      video:
+        weight: 51
+        enabled: false
+      vitex:
+        weight: 52
         enabled: false
 field_type: entity_reference_revisions

@@ -22,7 +22,19 @@ third_party_settings:
         link_custom: ''
         classes:
           layout_class: {  }
-    regions: {  }
+    regions:
+      ds_content:
+        - taxonomy_term_title
+    fields:
+      taxonomy_term_title:
+        plugin_id: taxonomy_term_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: h1
+          class: ''
+          link: false
 id: taxonomy_term.faq_theme.default
 targetEntityType: taxonomy_term
 bundle: faq_theme

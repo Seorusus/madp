@@ -25,6 +25,8 @@ display:
           label: Typ
         timestamp:
           label: Datum
+        message:
+          label: Message
         name:
           label: Benutzer
           separator: ', '
@@ -34,5 +36,9 @@ display:
         type:
           expose:
             label: Typ
+      empty:
+        area:
+          content:
+            value: 'Keine Protokollnachrichten verfügbar.'
   page:
     display_title: Seite

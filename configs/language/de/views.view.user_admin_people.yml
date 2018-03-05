@@ -38,6 +38,9 @@ display:
         roles_target_id:
           expose:
             label: Rolle
+        permission:
+          expose:
+            label: Berechtigung
   page_1:
     display_title: Seite
     display_options:

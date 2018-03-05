@@ -7,29 +7,59 @@ dependencies:
     - field.field.node.discover_the_offer.field_paragraph_top
     - node.type.discover_the_offer
   module:
-    - ds
     - entity_reference_revisions
+    - field_group
     - user
 third_party_settings:
-  ds:
-    layout:
-      id: ds_1col
-      library: null
-      disable_css: false
-      entity_classes: no_classes
-      settings:
-        wrappers:
-          ds_content: div
-        outer_wrapper: div
-        attributes: ''
-        link_attribute: ''
-        link_custom: ''
-        classes:
-          layout_class: {  }
-    regions:
-      ds_content:
-        - field_paragraph_top
-        - field_paragraph
+  field_group:
+    group_pourquoi_une:
+      children: {  }
+      parent_name: ''
+      weight: 4
+      format_type: details
+      format_settings:
+        label: 'Pourquoi une assurance chômage?'
+        open: true
+        id: block_1
+        classes: block_1
+      label: 'Pourquoi une assurance chômage?'
+      region: hidden
+    group_gerez_simplement_votre:
+      children: {  }
+      parent_name: ''
+      weight: 5
+      format_type: details
+      format_settings:
+        label: 'Gérez simplement votre contrat en ligne'
+        open: true
+        id: block_2
+        classes: block_2
+      label: 'Gérez simplement votre contrat en ligne'
+      region: hidden
+    group_comment_gerer:
+      children: {  }
+      parent_name: ''
+      weight: 6
+      format_type: details
+      format_settings:
+        label: 'Comment gérer un sinistre?'
+        open: true
+        id: block_3
+        classes: block_3
+      label: 'Comment gérer un sinistre?'
+      region: hidden
+    group_qui_peut:
+      children: {  }
+      parent_name: ''
+      weight: 7
+      format_type: details
+      format_settings:
+        label: 'Qui peut souscrire?'
+        open: true
+        id: block_4
+        classes: block_4
+      label: 'Qui peut souscrire?'
+      region: hidden
 id: node.discover_the_offer.default
 targetEntityType: node
 bundle: discover_the_offer
@@ -45,7 +75,7 @@ content:
     third_party_settings:
       ds:
         ds_limit: ''
-    region: ds_content
+    region: content
   field_paragraph_top:
     type: entity_reference_revisions_entity_view
     weight: 0
@@ -54,7 +84,7 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    region: ds_content
+    region: content
 hidden:
   langcode: true
   links: true

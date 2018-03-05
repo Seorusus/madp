@@ -12,5 +12,6 @@ display:
       fields:
         changed:
           separator: ', '
+      use_more_text: Mehr
   block_1:
     display_title: Block
