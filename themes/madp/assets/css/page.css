@@ -195,3 +195,34 @@
   text-align: center;
   bottom: -7px;
 }
+
+/** -- Theming of Contactwebform page -- */
+
+.webform-contact .control-label {
+  color: #05656a;
+  padding: 1.5rem 0;
+}
+
+.webform-contact .webform-actions .webform-button--submit {
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-family: "Gotham-Bold", sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  background: #fff;
+  color: #05656a;
+  border: 2px solid #05656a;
+  margin-top: 2rem;
+
+}
+
+.webform-contact .webform-actions .webform-button--submit:hover {
+  background: #05656a;
+  color: #fff;
+}
