@@ -1,0 +1,121 @@
+
+<div class="main-wrapper">
+
+    <!-- HEADER start-->
+    <header role="banner">
+        {% block header %}
+
+            <section class="header-top">
+                <div class="container">
+
+                    <!-- logo -->
+                    <a href="{{ url('<front>') }}"><img src="{{ file_url(site_logo_realpath) }}" alt="Madp logo" class="logo" height="159" /></a>
+                    <!-- logo -->
+
+                    <div class="row">
+                        <div class="left col-lg-9 col-md-9 col-sm-12 col-xs-12">
+
+                            <!-- baseline -->
+                            {{site_signature|raw}}
+                            <!-- baseline -->
+
+                        </div>
+                        <div class="right col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <a href="{{lien_bouton_espace_personel}}" class="btn">{{titre_bouton_espace_personel}}</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="/" class="clt"><img src="/themes/madp/assets/img/picto-clt.gif" alt="devenir client" /></a>
+            </section>
+
+            <div class="clearfix"></div>
+
+            {{ page.header }}
+
+        {% endblock %}
+    </header>
+    <!-- HEADER end-->
+
+    <!-- TITLE start-->
+    <section class="header-bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-1">
+                    <div class="page-breadcrumbs">
+                        {{ drupal_block('breadcrumbs') }}
+                    </div>
+                    <div class="page-title">
+                        {% if node.title.value %}
+                            <h1>{{ node.title.value }}</h1>
+                        {% elseif page['#title'] %}
+                            <h1>{{ page['#title'] }}</h1>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TITLE end-->
+    <!-- SEARCH REGION start-->
+    <section class="search-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    {% block search %}
+                        {{ page.search }}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SEARCH REGION end-->
+    <div class="clearfix"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- LEFT start-->
+                {% block left %}
+                    {{ page.left }}
+                {% endblock %}
+                <!-- LEFT end-->
+            </div>
+            <div class="col-md-8">
+                <div class="search-result">
+                <!-- CONTENT start-->
+                {% block content %}
+                    <main>
+                        {{ page.content }}
+                    </main>
+                {% endblock %}
+                <!-- CONTENT end-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <footer role="contentinfo">
+        <!-- FOOTER start -->
+        {% block footer %}
+            <div class="footer clearfix">
+                <div class="container">
+                    {{ page.footer }}
+                </div>
+            </div>
+        {% endblock %}
+        <!-- FOOTER end -->
+
+        <div class="clearfix"></div>
+
+        <!-- COPYRIGHT start -->
+        {% block copyright %}
+            <div class="copyRight clearfix">
+                <div class="container">
+                    {{ page.copyright}}
+                </div>
+            </div>
+        {% endblock %}
+        <!-- COPYRIGHT end -->
+    </footer>
+
+</div>
