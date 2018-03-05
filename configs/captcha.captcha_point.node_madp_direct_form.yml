@@ -1,7 +1,0 @@
-uuid: dc12c7f2-52a1-482a-ba56-64ddce144f54
-langcode: en
-status: false
-dependencies: {  }
-formId: node_madp_direct_form
-captchaType: default
-label: null

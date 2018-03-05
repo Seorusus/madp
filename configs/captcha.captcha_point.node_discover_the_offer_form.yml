@@ -1,7 +1,0 @@
-uuid: 30e5c4b7-4004-46ba-a701-ad9c82278a15
-langcode: en
-status: false
-dependencies: {  }
-formId: node_discover_the_offer_form
-captchaType: default
-label: null

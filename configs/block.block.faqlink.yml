@@ -1,0 +1,25 @@
+uuid: 05345ce0-8125-4fe9-8017-365b6a958fc0
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:3ae419fb-a24e-457e-8544-8b903433c954'
+  module:
+    - block_content
+  theme:
+    - madp
+id: faqlink
+theme: madp
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:3ae419fb-a24e-457e-8544-8b903433c954'
+settings:
+  id: 'block_content:3ae419fb-a24e-457e-8544-8b903433c954'
+  label: 'FAQ link'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

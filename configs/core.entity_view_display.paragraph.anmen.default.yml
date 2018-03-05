@@ -1,0 +1,27 @@
+uuid: 33acb041-9a94-441b-9cff-9955d6612380
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.anmen.field_paragraph_menu
+    - paragraphs.paragraphs_type.anmen
+  module:
+    - link
+id: paragraph.anmen.default
+targetEntityType: paragraph
+bundle: anmen
+mode: default
+content:
+  field_paragraph_menu:
+    weight: 0
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

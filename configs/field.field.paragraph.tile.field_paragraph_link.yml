@@ -1,0 +1,23 @@
+uuid: bb2308ff-05ea-46e3-8443-5a896d1a40dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_link
+    - paragraphs.paragraphs_type.tile
+  module:
+    - link
+id: paragraph.tile.field_paragraph_link
+field_name: field_paragraph_link
+entity_type: paragraph
+bundle: tile
+label: 'Paragraph link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

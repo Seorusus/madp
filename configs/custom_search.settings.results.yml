@@ -1,0 +1,32 @@
+node_search:
+  path: faq
+  search: 1
+  advanced:
+    visibility: 0
+    collapsible: 1
+    collapsed: 1
+    criteria:
+      or: or
+      phrase: phrase
+      negative: negative
+    types:
+      application_madp: application_madp
+      article: article
+      discover_the_offer: discover_the_offer
+      faq: faq
+      page: page
+      paragraphed_content_demo: paragraphed_content_demo
+    languages:
+      fr: fr
+      en: en
+      de: de
+      und: und
+      zxx: zxx
+  info:
+    type: 0
+    user: 0
+    date: 0
+  filter:
+    position: disabled
+    label: 'Filter the results'
+    any: '- Any -'

@@ -1,0 +1,21 @@
+uuid: 0193eb9c-3cf9-4a65-a8e9-b4c51c737145
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_tabs_content
+    - field_collection.field_collection.field_tabs
+  module:
+    - text
+id: field_collection_item.field_tabs.field_tabs_content
+field_name: field_tabs_content
+entity_type: field_collection_item
+bundle: field_tabs
+label: 'Tabs content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

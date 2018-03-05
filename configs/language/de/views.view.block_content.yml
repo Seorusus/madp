@@ -20,8 +20,6 @@ display:
           separator: ', '
         type:
           separator: ', '
-        changed:
-          label: Aktualisiert
         operations:
           label: Operationen
   page_1:

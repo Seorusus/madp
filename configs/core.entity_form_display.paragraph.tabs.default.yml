@@ -1,0 +1,24 @@
+uuid: 74289bcd-a1b3-4ed7-9ab0-3d095dbc983c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tabs.field_tabs
+    - paragraphs.paragraphs_type.tabs
+  module:
+    - field_collection
+id: paragraph.tabs.default
+targetEntityType: paragraph
+bundle: tabs
+mode: default
+content:
+  field_tabs:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
