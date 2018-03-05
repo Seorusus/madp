@@ -1,0 +1,19 @@
+uuid: e39823f0-5ca2-4012-ace4-2df788d9a31e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_title
+    - paragraphs.paragraphs_type.tile
+id: paragraph.tile.field_p_title
+field_name: field_p_title
+entity_type: paragraph
+bundle: tile
+label: 'Paragraph title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

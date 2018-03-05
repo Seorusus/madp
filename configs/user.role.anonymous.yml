@@ -29,4 +29,5 @@ permissions:
   - 'view paragraph content text_image'
   - 'view paragraph content text_text'
   - 'view paragraph content text_video'
+  - 'view paragraph content tile'
   - 'view paragraph content video'
