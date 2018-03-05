@@ -1,0 +1,91 @@
+uuid: 70151127-9338-4cb9-9b97-975514771026
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_feature2
+    - paragraphs.paragraphs_type.2line_tile
+    - paragraphs.paragraphs_type.features2
+  module:
+    - entity_reference_revisions
+id: paragraph.features2.field_paragraph_feature2
+field_name: field_paragraph_feature2
+entity_type: paragraph
+bundle: features2
+label: 'Paragraph feature2'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      2line_tile: 2line_tile
+    target_bundles_drag_drop:
+      features2:
+        weight: 22
+        enabled: false
+      2line_tile:
+        enabled: true
+        weight: 23
+      anmen:
+        weight: 24
+        enabled: false
+      image_text:
+        weight: 25
+        enabled: false
+      images:
+        weight: 26
+        enabled: false
+      images_slider:
+        weight: 27
+        enabled: false
+      imtex:
+        weight: 28
+        enabled: false
+      nested_paragraph:
+        weight: 29
+        enabled: false
+      paragraph_feature:
+        weight: 30
+        enabled: false
+      promotop:
+        weight: 31
+        enabled: false
+      table:
+        weight: 32
+        enabled: false
+      table_image:
+        weight: 33
+        enabled: false
+      table_text:
+        weight: 34
+        enabled: false
+      test_paragraph:
+        weight: 35
+        enabled: false
+      texim:
+        weight: 36
+        enabled: false
+      text:
+        weight: 37
+        enabled: false
+      text_image:
+        weight: 38
+        enabled: false
+      text_text:
+        weight: 39
+        enabled: false
+      tile:
+        weight: 40
+        enabled: false
+      video:
+        weight: 41
+        enabled: false
+      vitex:
+        weight: 42
+        enabled: false
+field_type: entity_reference_revisions

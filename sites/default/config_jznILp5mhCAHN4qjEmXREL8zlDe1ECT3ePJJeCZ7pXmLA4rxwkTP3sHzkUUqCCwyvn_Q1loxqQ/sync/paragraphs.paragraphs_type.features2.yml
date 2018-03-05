@@ -1,0 +1,14 @@
+uuid: 57721cc7-9ce9-40b9-84e2-692503db0b2c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: features2
+label: Features2
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }
