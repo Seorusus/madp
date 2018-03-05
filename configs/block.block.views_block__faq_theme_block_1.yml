@@ -5,10 +5,14 @@ dependencies:
   config:
     - views.view.faq_theme
   module:
+    - block_class
     - system
     - views
   theme:
     - madp
+third_party_settings:
+  block_class:
+    classes: ''
 id: views_block__faq_theme_block_1
 theme: madp
 region: left
@@ -25,6 +29,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/faq\r\n/faq/*"
+    pages: "/faq\r\n/faq/*\r\n/search/faq"
     negate: false
     context_mapping: {  }

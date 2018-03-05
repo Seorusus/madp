@@ -20,6 +20,8 @@ display:
             items_per_page_options_all_label: '- Alle -'
             offset_label: Offset
       fields:
+        comment_bulk_form:
+          action_title: Aktion
         subject:
           label: Betreff
           separator: ', '
@@ -31,6 +33,7 @@ display:
         entity_id:
           separator: ', '
         changed:
+          label: Aktualisiert
           separator: ', '
         operations:
           label: Operationen
@@ -58,6 +61,8 @@ display:
           expose:
             label: Sprache
       fields:
+        comment_bulk_form:
+          action_title: Aktion
         subject:
           label: Betreff
           separator: ', '
@@ -69,6 +74,7 @@ display:
         entity_id:
           separator: ', '
         changed:
+          label: Aktualisiert
           separator: ', '
         operations:
           label: Operationen

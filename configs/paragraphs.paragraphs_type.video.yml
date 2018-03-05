@@ -9,7 +9,7 @@ dependencies:
 id: video
 label: Video
 icon_uuid: 867329d5-3590-417d-94aa-08fa8a80df54
-description: ''
+description: 'Use Video for adding a video.'
 behavior_plugins:
   paragraphs_viewmode_behavior:
     override_mode: default

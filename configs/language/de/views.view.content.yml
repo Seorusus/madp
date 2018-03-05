@@ -21,6 +21,8 @@ display:
           label: Status
           settings:
             format_custom_true: Veröffentlicht
+        changed:
+          label: Aktualisiert
         operations:
           label: Operationen
       filters:

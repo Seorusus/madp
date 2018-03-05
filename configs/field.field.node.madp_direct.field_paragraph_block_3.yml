@@ -1,0 +1,62 @@
+uuid: 86bdda3f-3b9e-4f75-b4bc-2920d75b2fb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph_block_3
+    - node.type.madp_direct
+  module:
+    - entity_reference_revisions
+id: node.madp_direct.field_paragraph_block_3
+field_name: field_paragraph_block_3
+entity_type: node
+bundle: madp_direct
+label: 'Paragraph block-3'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      image_text:
+        weight: 13
+        enabled: false
+      images:
+        weight: 14
+        enabled: false
+      images_slider:
+        weight: 15
+        enabled: false
+      nested_paragraph:
+        weight: 16
+        enabled: false
+      table:
+        weight: 17
+        enabled: false
+      table_image:
+        weight: 18
+        enabled: false
+      table_text:
+        weight: 19
+        enabled: false
+      test_paragraph:
+        weight: 20
+        enabled: false
+      text:
+        weight: 21
+        enabled: false
+      text_image:
+        weight: 22
+        enabled: false
+      text_text:
+        weight: 23
+        enabled: false
+      video:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

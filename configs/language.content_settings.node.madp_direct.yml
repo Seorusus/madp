@@ -1,0 +1,11 @@
+uuid: 2108264c-66eb-4c06-8346-eef5617b63d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.madp_direct
+id: node.madp_direct
+target_entity_type_id: node
+target_bundle: madp_direct
+default_langcode: site_default
+language_alterable: false

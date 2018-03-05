@@ -1,0 +1,25 @@
+uuid: 95b6e48a-3a2a-4165-a9a0-05bd9bbc8c30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_madp_menu_anchor
+    - node.type.madp_direct
+  module:
+    - block_field
+id: node.madp_direct.field_madp_menu_anchor
+field_name: field_madp_menu_anchor
+entity_type: node
+bundle: madp_direct
+label: 'Madp menu anchor'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    plugin_id: 'system_menu_block:offer-anchors'
+    settings: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

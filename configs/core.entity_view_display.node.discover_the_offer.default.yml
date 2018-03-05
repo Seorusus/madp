@@ -3,14 +3,73 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.discover_the_offer.field_menu_anchor
     - field.field.node.discover_the_offer.field_paragraph
-    - field.field.node.discover_the_offer.field_paragraph_top
+    - field.field.node.discover_the_offer.field_paragraph_block_2
+    - field.field.node.discover_the_offer.field_paragraph_block_3
+    - field.field.node.discover_the_offer.field_paragraph_block_4
     - node.type.discover_the_offer
   module:
+    - block_field
     - ds
     - entity_reference_revisions
+    - field_formatter_class
+    - field_group
     - user
 third_party_settings:
+  field_group:
+    group_pourquoi_une:
+      children:
+        - field_paragraph
+      parent_name: ''
+      weight: 2
+      format_type: details
+      format_settings:
+        label: 'Pourquoi une assurance chômage?'
+        open: true
+        id: block_1
+        classes: block_1
+      label: 'Pourquoi une assurance chômage?'
+      region: hidden
+    group_gerez_simplement_votre:
+      children:
+        - field_paragraph_block_2
+      parent_name: ''
+      weight: 3
+      format_type: details
+      format_settings:
+        label: 'Gérez simplement votre contrat en ligne'
+        open: true
+        id: block_2
+        classes: block_2
+      label: 'Gérez simplement votre contrat en ligne'
+      region: hidden
+    group_comment_gerer:
+      children:
+        - field_paragraph_block_3
+      parent_name: ''
+      weight: 4
+      format_type: details
+      format_settings:
+        label: 'Comment gérer un sinistre?'
+        open: true
+        id: block_3
+        classes: block_3
+      label: 'Comment gérer un sinistre?'
+      region: hidden
+    group_qui_peut:
+      children:
+        - field_paragraph_block_4
+      parent_name: ''
+      weight: 5
+      format_type: details
+      format_settings:
+        label: 'Qui peut souscrire?'
+        open: true
+        id: block_4
+        classes: block_4
+      label: 'Qui peut souscrire?'
+      region: hidden
   ds:
     layout:
       id: ds_1col
@@ -28,13 +87,40 @@ third_party_settings:
           layout_class: {  }
     regions:
       ds_content:
-        - field_paragraph_top
+        - node_title
+        - field_menu_anchor
         - field_paragraph
+        - field_paragraph_block_2
+        - group_pourquoi_une
+        - field_paragraph_block_3
+        - group_gerez_simplement_votre
+        - field_paragraph_block_4
+        - group_comment_gerer
+        - group_qui_peut
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: h1
+          class: offer-title
+          link: false
 id: node.discover_the_offer.default
 targetEntityType: node
 bundle: discover_the_offer
 mode: default
 content:
+  field_menu_anchor:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: menu-anchor
+    type: block_field
+    region: ds_content
   field_paragraph:
     type: entity_reference_revisions_entity_view
     weight: 1
@@ -46,9 +132,27 @@ content:
       ds:
         ds_limit: ''
     region: ds_content
-  field_paragraph_top:
+  field_paragraph_block_2:
     type: entity_reference_revisions_entity_view
-    weight: 0
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: ds_content
+  field_paragraph_block_3:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: ds_content
+  field_paragraph_block_4:
+    type: entity_reference_revisions_entity_view
+    weight: 4
     label: hidden
     settings:
       view_mode: default

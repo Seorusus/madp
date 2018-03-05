@@ -1,0 +1,35 @@
+uuid: 1c1e96c2-1d84-4fa2-a999-abba22a42068
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.madp_direct.field_madp_menu_anchor
+    - field.field.node.madp_direct.field_paragraph
+    - field.field.node.madp_direct.field_paragraph_block_2
+    - field.field.node.madp_direct.field_paragraph_block_3
+    - field.field.node.madp_direct.field_paragraph_nos_valeurs
+    - field.field.node.madp_direct.field_paragraph_nos_valeurs_2
+    - field.field.node.madp_direct.field_paragraph_nos_valeurs_3
+    - field.field.node.madp_direct.field_paragraph_nos_valeurs_4
+    - node.type.madp_direct
+  module:
+    - user
+id: node.madp_direct.teaser
+targetEntityType: node
+bundle: madp_direct
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_madp_menu_anchor: true
+  field_paragraph: true
+  field_paragraph_block_2: true
+  field_paragraph_block_3: true
+  field_paragraph_nos_valeurs: true
+  field_paragraph_nos_valeurs_2: true
+  field_paragraph_nos_valeurs_3: true
+  field_paragraph_nos_valeurs_4: true
+  langcode: true

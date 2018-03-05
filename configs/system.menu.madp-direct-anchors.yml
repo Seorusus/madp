@@ -1,0 +1,8 @@
+uuid: f3a690d3-153f-4d86-bbe2-72ad0f97cfb0
+langcode: fr
+status: true
+dependencies: {  }
+id: madp-direct-anchors
+label: 'MADP Direct anchors'
+description: ''
+locked: false
