@@ -1,0 +1,68 @@
+uuid: 95555958-20c6-4622-8d3d-719c138ed0b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph_top
+    - node.type.promo_page
+  module:
+    - entity_reference_revisions
+id: node.promo_page.field_paragraph_top
+field_name: field_paragraph_top
+entity_type: node
+bundle: promo_page
+label: 'Paragraph top'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      image_text:
+        weight: 15
+        enabled: false
+      images:
+        weight: 16
+        enabled: false
+      images_slider:
+        weight: 17
+        enabled: false
+      table:
+        weight: 18
+        enabled: false
+      table_image:
+        weight: 19
+        enabled: false
+      table_text:
+        weight: 20
+        enabled: false
+      test_paragraph:
+        weight: 21
+        enabled: false
+      text:
+        weight: 22
+        enabled: false
+      text_image:
+        weight: 23
+        enabled: false
+      text_text:
+        weight: 24
+        enabled: false
+      text_text_text:
+        weight: 25
+        enabled: false
+      text_video:
+        weight: 26
+        enabled: false
+      title_text:
+        weight: 27
+        enabled: false
+      video:
+        weight: 28
+        enabled: false
+field_type: entity_reference_revisions

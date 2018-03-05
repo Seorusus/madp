@@ -1,0 +1,37 @@
+uuid: 85c0398c-5494-4630-95ef-189a1c94eb2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.promo_page.field_paragraph_page
+    - field.field.node.promo_page.field_paragraph_top
+    - node.type.promo_page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.promo_page.default
+targetEntityType: node
+bundle: promo_page
+mode: default
+content:
+  field_paragraph_page:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_paragraph_top:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  links: true

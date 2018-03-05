@@ -1,0 +1,14 @@
+uuid: 42a2b85b-6830-4541-9405-7519a43a5d85
+langcode: en
+status: true
+dependencies: {  }
+name: m_v
+label: 'Medium vertical (380x450)'
+effects:
+  dacb315a-eed8-4bf0-b63d-6ed879ff754d:
+    uuid: dacb315a-eed8-4bf0-b63d-6ed879ff754d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 380
+      height: 450

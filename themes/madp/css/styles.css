@@ -29,14 +29,14 @@
     max-width: 100%;
     height: 450px; }
 
-.field--name-field-paragraph-title {
+.field--name-field-p-title {
   margin-bottom: 40px;
   font-size: 20px;
   line-height: 1.2;
   font-weight: bold;
   color: #EC5B32;
   text-transform: uppercase; }
-  .field--name-field-paragraph-title::after {
+  .field--name-field-p-title::after {
     content: '';
     display: block;
     width: 170px;
@@ -44,21 +44,21 @@
     margin: 15px 0;
     background: #EC5B32; }
 
-.field--name-field-paragraph-text {
+.field--name-field-p-text {
   margin-bottom: 40px;
   font-size: 18px;
   line-height: 1.4;
   color: #2F2F2F; }
 
-.field--name-field-paragraph-description {
+.field--name-field-p-description {
   font-size: 18px;
   line-height: 1.2;
   color: #484848;
   margin: 10px 0; }
 
-.field--name-field-paragraph-link {
+.field--name-field-p-link {
   margin-bottom: 40px; }
-  .field--name-field-paragraph-link a {
+  .field--name-field-p-link a {
     font-size: 18px;
     line-height: 1.2;
     color: #00656B; }

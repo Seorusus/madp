@@ -17,6 +17,7 @@ permissions:
   - 'view paragraph content image_text'
   - 'view paragraph content images'
   - 'view paragraph content images_slider'
+  - 'view paragraph content imtex'
   - 'view paragraph content nested_paragraph'
   - 'view paragraph content table'
   - 'view paragraph content table_image'
