@@ -29,6 +29,11 @@ if (!defined("PANTHEON_VERSION")) {
 }
 
 /**
+* Config folder
+*/
+
+$config_directories['sync'] = 'configs';
+/**
  * Determine whether this is a preproduction or production environment, and
  * then load the pantheon services.yml file.  This file should be named either
  * 'pantheon-production-services.yml' (for 'live' or 'test' environments)
