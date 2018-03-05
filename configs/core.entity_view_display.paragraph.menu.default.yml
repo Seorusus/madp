@@ -1,0 +1,27 @@
+uuid: d78e9cfb-cac5-4bdc-b1af-4f11c92bf2c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.menu.field_p_menu
+    - paragraphs.paragraphs_type.menu
+  module:
+    - link
+id: paragraph.menu.default
+targetEntityType: paragraph
+bundle: menu
+mode: default
+content:
+  field_p_menu:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

@@ -242,7 +242,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  .s-paragraph-menu__item {
+  .s-paragraph-menu__item a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -258,34 +258,33 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 0 40px; }
-    .s-paragraph-menu__item a {
-      font-size: inherit;
-      color: inherit;
-      line-height: inherit; }
-      .s-paragraph-menu__item a::before {
-        content: '';
-        display: block;
-        background-image: url(img/sprite.png);
-        background-position: 0px -224px;
-        width: 58px;
-        height: 50px;
-        margin-bottom: 10px; }
-    .s-paragraph-menu__item:nth-child(2) a::before {
+    padding: 0 40px;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit; }
+    .s-paragraph-menu__item a::before {
+      content: '';
+      display: block;
       background-image: url(img/sprite.png);
-      background-position: -249px 0px;
-      width: 56px;
-      height: 54px; }
-    .s-paragraph-menu__item:nth-child(3) a::before {
-      background-image: url(img/sprite.png);
-      background-position: -249px -56px;
-      width: 54px;
-      height: 52px; }
-    .s-paragraph-menu__item:nth-child(4) a::before {
-      background-image: url(img/sprite.png);
-      background-position: -249px -110px;
-      width: 40px;
-      height: 54px; }
+      background-position: 0px -224px;
+      width: 58px;
+      height: 50px;
+      margin-bottom: 10px; }
+  .s-paragraph-menu__item:nth-child(2) a::before {
+    background-image: url(img/sprite.png);
+    background-position: -249px 0px;
+    width: 56px;
+    height: 54px; }
+  .s-paragraph-menu__item:nth-child(3) a::before {
+    background-image: url(img/sprite.png);
+    background-position: -249px -56px;
+    width: 54px;
+    height: 52px; }
+  .s-paragraph-menu__item:nth-child(4) a::before {
+    background-image: url(img/sprite.png);
+    background-position: -249px -110px;
+    width: 40px;
+    height: 54px; }
 
 .s-feature2 {
   padding: 30px 20px;

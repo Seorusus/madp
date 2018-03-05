@@ -1,0 +1,26 @@
+uuid: 091c8ca4-6874-498e-87d3-925b6b79250c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.menu.field_p_menu
+    - paragraphs.paragraphs_type.menu
+  module:
+    - link
+id: paragraph.menu.default
+targetEntityType: paragraph
+bundle: menu
+mode: default
+content:
+  field_p_menu:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

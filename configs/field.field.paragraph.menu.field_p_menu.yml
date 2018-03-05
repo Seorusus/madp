@@ -1,0 +1,23 @@
+uuid: 20412a9b-7755-4ffb-aa8c-ea8060f8ec61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_menu
+    - paragraphs.paragraphs_type.menu
+  module:
+    - link
+id: paragraph.menu.field_p_menu
+field_name: field_p_menu
+entity_type: paragraph
+bundle: menu
+label: 'Paragraph menu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 2
+field_type: link
