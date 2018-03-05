@@ -1,0 +1,21 @@
+uuid: 2a863499-9f96-4d01-b9cb-ce3c28cb13cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.features1.field_p_features1
+    - paragraphs.paragraphs_type.features1
+id: paragraph.features1.default
+targetEntityType: paragraph
+bundle: features1
+mode: default
+content:
+  field_p_features1:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }
