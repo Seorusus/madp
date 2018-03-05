@@ -1,0 +1,26 @@
+uuid: c307f8e2-de18-4f21-8575-573dbab8c033
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.anmen.field_paragraph_menu
+    - paragraphs.paragraphs_type.anmen
+  module:
+    - link
+id: paragraph.anmen.default
+targetEntityType: paragraph
+bundle: anmen
+mode: default
+content:
+  field_paragraph_menu:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

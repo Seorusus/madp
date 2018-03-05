@@ -1,0 +1,21 @@
+uuid: fa010c44-1487-4052-857e-5bcae0f67d23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_video
+    - paragraphs.paragraphs_type.vitex
+  module:
+    - youtube
+id: paragraph.vitex.field_paragraph_video
+field_name: field_paragraph_video
+entity_type: paragraph
+bundle: vitex
+label: 'Paragraph video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: youtube

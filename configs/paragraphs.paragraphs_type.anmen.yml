@@ -1,0 +1,14 @@
+uuid: 4de425b2-16c4-410d-b032-d403fca181f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: anmen
+label: 'Anchor menu'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

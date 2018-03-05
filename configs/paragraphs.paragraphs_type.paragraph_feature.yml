@@ -1,0 +1,14 @@
+uuid: 8bbd66ce-e5be-4101-ad4a-92a9c719f40f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: paragraph_feature
+label: 'Paragraph feature'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }
