@@ -1,23 +1,23 @@
 <div class="s-tabs">
   <ul class="s-tabs__headers">
   {% for item in items %}
-    {% if loop.index == 1 %}
+    {% if loop.index == 3 %}
       {% set current_class = ' current' %}
     {% else %}
       {% set current_class = '' %}
     {% endif %}
-    <li class="s-tabs__header  js-tabs__header {{ current_class }}" data-tab="s-tabs__content--{{ loop.index }}">{{ item.content['#field_collection_item'].field_tabs_title.value }}</li>
+    <li class="s-tabs__header  js-tabs__header {{ current_class }}" data-tab="s-tabs__content--{{ loop.index }}">{{ item.content['#field_collection_item'].field_fc_tabs_title.value }}</li>
   {% endfor %}
   </ul>
   {% for item in items %}
-    {% if loop.index == 1 %}
+    {% if loop.index == 3 %}
       {% set current_class = ' current' %}
     {% else %}
       {% set current_class = '' %}
     {% endif %}
   <div id="s-tabs__content--{{ loop.index }}" class="s-tabs__content  js-tabs__content s-tabs__content--{{ loop.index }} {{ current_class }}">
     <div class="s-tabs__content-inner">
-      {{ item.content['#field_collection_item'].field_tabs_content.value }}
+      {{ item.content['#field_collection_item'].field_fc_tabs_content.value }}
     </div>
   </div>
   {% endfor %}
