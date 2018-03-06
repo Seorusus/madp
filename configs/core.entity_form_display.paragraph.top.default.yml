@@ -1,0 +1,33 @@
+uuid: 65032841-651b-41ca-819c-33207628587b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.top.field_p_features1
+    - field.field.paragraph.top.field_p_title
+    - paragraphs.paragraphs_type.top
+id: paragraph.top.default
+targetEntityType: paragraph
+bundle: top
+mode: default
+content:
+  field_p_features1:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_p_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

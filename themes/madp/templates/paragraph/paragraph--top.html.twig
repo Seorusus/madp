@@ -42,16 +42,19 @@
   set classes, paragraph_id = [
   's-paragraph',
   's-paragraph--' ~ paragraph.bundle|clean_class,
-  'row',
 ],
   's-paragraph--' ~ paragraph.id()
 %}
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }} id="{{ paragraph_id }}">
     {% block content %}
-    <div class="col-md-12 col-sm-12 col-xs-12">
-      {{ content }}
-    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            {{ content }}
+          </div>
+        </div>
+      </div>
     {% endblock %}
   </div>
 {% endblock paragraph %}

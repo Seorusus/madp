@@ -1,0 +1,33 @@
+uuid: 9395d17e-3273-4f64-a8fc-6329997b1f16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.features2.field_p_feature2
+    - field.field.paragraph.features2.field_p_title
+    - paragraphs.paragraphs_type.features2
+  module:
+    - field_collection
+id: paragraph.features2.default
+targetEntityType: paragraph
+bundle: features2
+mode: default
+content:
+  field_p_feature2:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+    region: content
+  field_p_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

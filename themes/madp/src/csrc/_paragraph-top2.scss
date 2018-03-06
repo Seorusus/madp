@@ -1,8 +1,12 @@
-.s-paragraph-features1 {
-  font-size: 16px;
+.s-paragraph--top2 {
+  background: $color-2;
+}
+.s-paragraph-top2 {
+  font-size: 14px;
   color: $color-3;
   line-height: 1.2;
   text-align: center;
+  padding: 50px 0;
   display: flex;
   justify-content: space-between;
 
@@ -17,45 +21,28 @@
     &::before {
       content: '';
       display: block;
-      @include sprite($med);
+      @include sprite($user);
       margin-bottom: 10px;
     }
-    &::after {
-      content: '';
-      display: block;
-      margin-top: 10px;
-      @include sprite($one);
-    }
+
     &:nth-child(2){
       &::before {
-        @include sprite($thumbs);
-      }
-      &::after {
-        @include sprite($two);
+        @include sprite($phone);
       }
     }
     &:nth-child(3){
       &::before {
-        @include sprite($umbrella);
-      }
-      &::after {
-        @include sprite($three);
+        @include sprite($chart);
       }
     }
     &:nth-child(4){
       &::before {
-        @include sprite($question);
-      }
-      &::after {
-        @include sprite($four);
+        @include sprite($trophy);
       }
     }
     &:nth-child(5){
       &::before {
         @include sprite($question);
-      }
-      &::after {
-        @include sprite($five);
       }
     }
   }

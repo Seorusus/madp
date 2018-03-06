@@ -1,0 +1,21 @@
+uuid: ad5f2e9b-ff4e-4101-b775-bc9cd13fcd4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.top2.field_p_features1
+    - paragraphs.paragraphs_type.top2
+id: paragraph.top2.default
+targetEntityType: paragraph
+bundle: top2
+mode: default
+content:
+  field_p_features1:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,10 +1,14 @@
-.s-paragraph-top {
-  background-image: linear-gradient(to top, white 160px, $color-3 0%);
+.s-paragraph-page-top {
 
-  .field--name-field-paragraph-text {
+  &__title {
     font-size: 24px;
     color: white;
     font-weight: bold;
     line-height: 1.2;
+    margin: 50px 0;
   }
+}
+
+.s-paragraph--top {
+  background-image: linear-gradient(to top, white 70px, $color-3 0%);
 }

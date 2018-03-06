@@ -1,0 +1,30 @@
+uuid: 0c5dd68d-fae2-42cc-ad98-5d785e1bc963
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.top.field_p_features1
+    - field.field.paragraph.top.field_p_title
+    - paragraphs.paragraphs_type.top
+id: paragraph.top.default
+targetEntityType: paragraph
+bundle: top
+mode: default
+content:
+  field_p_features1:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_p_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }
