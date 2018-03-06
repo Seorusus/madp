@@ -1,8 +1,11 @@
-<ul class="s-paragraph-menu row">
-  {% for item in items %}
-    <li{{ item.attributes.addClass('s-paragraph-menu__item') }}>
-      {{ item.content }}
-    </li>
-  {% endfor %}
-</ul>
+<div class="container">
+    <ul class="s-paragraph-menu">
+      {% for item in items %}
+          <li{{ item.attributes.addClass('s-paragraph-menu__item') }}>
+            {{ item.content }}
+          </li>
+      {% endfor %}
+    </ul>
+</div>
+
 

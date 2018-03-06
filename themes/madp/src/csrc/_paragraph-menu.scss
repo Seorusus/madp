@@ -42,8 +42,41 @@
         @include sprite($question);
       }
     }
+    .s-paragraph-page-top & {
+      &:nth-child(1){
+        & a::before {
+          @include sprite($user);
+        }
+      }
+      &:nth-child(2){
+        & a::before {
+          @include sprite($phone);
+        }
+      }
+      &:nth-child(3){
+        & a::before {
+          @include sprite($chart);
+        }
+      }
+      &:nth-child(4){
+        & a::before {
+          @include sprite($trophy);
+        }
+      }
+      &:nth-child(5){
+        & a::before {
+          @include sprite($question);
+        }
+      }
+    }
   }
 }
 
 
 
+.s-paragraph-page-top {
+  .s-paragraph--menu {
+    background: $color-2;
+    padding: 50px 0;
+  }
+}
