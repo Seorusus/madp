@@ -1,0 +1,67 @@
+#edit-tid {
+ input.form-radio {
+   display: none;
+ }
+
+  .ui-accordion-header {
+    background: #05656a;
+    border: none;
+    outline:none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Gotham-Book", sans-serif;
+    margin-top: 2px;
+    display: block;
+    border-radius: 3px 3px 0 0;
+  }
+
+
+  .ui-state-default {
+    color: #fff;
+  }
+
+  .ui-state-active .ui-icon {
+    background-image: url(../assets/img/arrow12.png);
+    position: relative;
+    left: 320px;
+    top: 1px;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .ui-accordion-header-icon {
+    background-image: url(../assets/img/arrow122.png);
+    position: relative;
+    left: 320px;
+    top: 1px;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .ui-accordion-content {
+    height: 100% !important;
+  }
+}
+
+
+.ui-accordion-content a:hover {
+  color: #05656a;
+  font-weight: 600;
+}
+
+.ui-accordion-content a:active {
+  color: #05656a;
+  font-weight: 600;
+}
+
+.ui-accordion-content a {
+  text-decoration: none;
+}
+
+.faq-questions .ui-accordion-header {
+  background: none;
+  border: none;
+  outline:none;
+  font-weight: 700;
+  color: #05656a;
+}

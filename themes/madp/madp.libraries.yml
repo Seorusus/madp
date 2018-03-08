@@ -12,9 +12,12 @@ global-styling:
       js/scripts.js: {}
 
   dependencies:
+      - core/drupal
       - core/jquery
       - core/jquery.once
-
+      - core/jquery.ui.accordion
+      - core/drupal.ajax
+      - core/views.ajax
 
 select2:
     css:
