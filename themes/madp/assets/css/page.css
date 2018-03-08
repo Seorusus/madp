@@ -172,6 +172,73 @@
 
 }
 
+.search-block-form {
+  margin: 4rem 0;
+}
+
+.search-form {
+  margin: 4rem 0;
+}
+
+.search-block-form .btn-primary, .search-form .btn-primary {
+  color: #fff;
+  background-color: #fff;
+  border: none;
+}
+
+.search-block-form .glyphicon,
+.search-form .glyphicon {
+  top:3px;
+}
+
+.search-block-form .glyphicon-search:before, .search-form .glyphicon-search:before {
+  content: "\e003";
+  color: orange;
+  font-size: 2.5rem;
+}
+
+.search-block-form .form-search, .search-form .form-search {
+  height: 4.35rem;
+}
+
+.search-block-form .button.js-form-submit.form-submit,
+.search-form .button.js-form-submit.form-submit {
+  border-top: 1px solid #ccc;
+  border-top-radius: 4px;
+  border-right: 1px solid #ccc;
+  border-right-radius: 4px;
+  border-bottom: 1px solid #ccc;
+  border-bottom-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.search-result h2 {
+  font-weight: 700;
+  color: #05656a;
+  font-size: 3rem;
+  margin: 2rem 0 2rem 3rem;
+  padding: 0;
+}
+
+.search-result h3 a {
+  font-weight: 600;
+  color: #05656a;
+  font-size: 2rem;
+  padding: 0;
+}
+.search-result h3 {
+  margin: 2rem 0 2rem 2rem;
+}
+
+.search-result li {
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 2rem;
+}
+
 /** -- Theming of MADP Direct page -- */
 .madp-menu-anchor .menu {
   display: flex;
@@ -195,3 +262,35 @@
   text-align: center;
   bottom: -7px;
 }
+
+/** -- Theming of Contactwebform page -- */
+
+.webform-contact .control-label {
+  color: #05656a;
+  padding: 1.5rem 0;
+}
+
+.webform-contact .webform-actions .webform-button--submit {
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-family: "Gotham-Bold", sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  background: #fff;
+  color: #05656a;
+  border: 2px solid #05656a;
+  margin-top: 2rem;
+
+}
+
+.webform-contact .webform-actions .webform-button--submit:hover {
+  background: #05656a;
+  color: #fff;
+}
+
