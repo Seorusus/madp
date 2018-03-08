@@ -89,6 +89,68 @@
   box-shadow: -1px 3px 17px 0px rgba(0,0,0,0.75);
 }
 
+.view-faq-theme .ui-accordion-header {
+  background: #05656a;
+  border: none;
+  outline:none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.view-faq-theme {
+  font-family: "Gotham-Book", sans-serif;
+  margin-top: 2rem;
+}
+
+
+.view-faq-theme .ui-state-default {
+  color: #fff;
+}
+
+.view-faq-theme .ui-state-active .ui-icon {
+  background-image: url(../img/arrow12.png);
+  position: relative;
+  left: 320px;
+  top: 1px;
+  background-position: center;
+  background-size: contain;
+}
+
+.view-faq-theme .ui-accordion-header-icon {
+  background-image: url(../img/arrow122.png);
+  position: relative;
+  left: 320px;
+  top: 1px;
+  background-position: center;
+  background-size: contain;
+}
+
+.view-faq-theme .ui-accordion-content {
+  height: 100% !important;
+}
+
+.ui-accordion-content a:hover {
+  color: #05656a;
+  font-weight: 600;
+}
+
+.ui-accordion-content a:active {
+  color: #05656a;
+  font-weight: 600;
+}
+
+.ui-accordion-content a {
+  text-decoration: none;
+}
+
+.faq-questions .ui-accordion-header {
+  background: none;
+  border: none;
+  outline:none;
+  font-weight: 700;
+  color: #05656a;
+}
+
 .term-title {
   font-weight: 700;
   color: #05656a;
