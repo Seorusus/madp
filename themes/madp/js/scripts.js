@@ -16,13 +16,13 @@ Drupal.behaviors.tabs = {
 (function ($, Drupal, drupalSettings) {
     Drupal.behaviors.accordion = {
         attach: function (context, settings) {
-            var act = 0;
-            $('#edit-tid .form-radios > ul').accordion({
+            var $activeItem = $('.hierarchical-taxonomy-menu .menu-item--active');
+            var $parentActive = $activeItem.parent().parent();
+            var $parentActiveIndex = $('.hierarchical-taxonomy-menu > .menu-item').index($parentActive);
+
+            $('.hierarchical-taxonomy-menu').accordion({
                 animate: 200,
-                // activate: function(event, ui) {
-                //     localStorage.setItem("accIndex", $(this).accordion("option", "active"));
-                // },
-                // active: parseInt(localStorage.getItem("accIndex"))
+                active: $parentActiveIndex
             } );
         }
     };

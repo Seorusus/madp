@@ -4,6 +4,6 @@ hierarchical_taxonomy_menu:
     theme:
       css/hierarchical-taxonomy-menu.css: {}
   js:
-    js/hierarchical-taxonomy-menu.js: {}
+#    js/hierarchical-taxonomy-menu.js: {}
   dependencies:
     - core/jquery

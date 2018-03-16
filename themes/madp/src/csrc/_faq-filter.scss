@@ -1,8 +1,4 @@
-#edit-tid {
- input.form-radio {
-   display: none;
- }
-
+.hierarchical-taxonomy-menu {
   .ui-accordion-header {
     background: #05656a;
     border: none;
@@ -44,6 +40,7 @@
 }
 
 
+.ui-accordion-content a.active,
 .ui-accordion-content a:hover {
   color: #05656a;
   font-weight: 600;

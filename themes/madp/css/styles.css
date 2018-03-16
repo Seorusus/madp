@@ -490,10 +490,7 @@
 .s-paragraph--top {
   background-image: linear-gradient(to top, white 70px, #00656B 0%); }
 
-#edit-tid input.form-radio {
-  display: none; }
-
-#edit-tid .ui-accordion-header {
+.hierarchical-taxonomy-menu .ui-accordion-header {
   background: #05656a;
   border: none;
   outline: none;
@@ -504,10 +501,10 @@
   display: block;
   border-radius: 3px 3px 0 0; }
 
-#edit-tid .ui-state-default {
+.hierarchical-taxonomy-menu .ui-state-default {
   color: #fff; }
 
-#edit-tid .ui-state-active .ui-icon {
+.hierarchical-taxonomy-menu .ui-state-active .ui-icon {
   background-image: url(../assets/img/arrow12.png);
   position: relative;
   left: 320px;
@@ -515,7 +512,7 @@
   background-position: center;
   background-size: contain; }
 
-#edit-tid .ui-accordion-header-icon {
+.hierarchical-taxonomy-menu .ui-accordion-header-icon {
   background-image: url(../assets/img/arrow122.png);
   position: relative;
   left: 320px;
@@ -523,9 +520,10 @@
   background-position: center;
   background-size: contain; }
 
-#edit-tid .ui-accordion-content {
+.hierarchical-taxonomy-menu .ui-accordion-content {
   height: 100% !important; }
 
+.ui-accordion-content a.active,
 .ui-accordion-content a:hover {
   color: #05656a;
   font-weight: 600; }
