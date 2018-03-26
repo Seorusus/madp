@@ -2,6 +2,533 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="228ca41b-ab87-4940-bb87-ab03c279667f" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/.codeclimate.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/.codeclimate.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/.csslintrc" afterPath="$PROJECT_DIR$/modules/contrib/metatag/.csslintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/.eslintignore" afterPath="$PROJECT_DIR$/modules/contrib/metatag/.eslintignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/.eslintrc" afterPath="$PROJECT_DIR$/modules/contrib/metatag/.eslintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/CHANGELOG.txt" afterPath="$PROJECT_DIR$/modules/contrib/metatag/CHANGELOG.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/CODE_OF_CONDUCT.txt" afterPath="$PROJECT_DIR$/modules/contrib/metatag/CODE_OF_CONDUCT.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/LICENSE.txt" afterPath="$PROJECT_DIR$/modules/contrib/metatag/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/README.txt" afterPath="$PROJECT_DIR$/modules/contrib/metatag/README.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/composer.json" afterPath="$PROJECT_DIR$/modules/contrib/metatag/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/config/install/metatag.metatag_defaults.403.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/config/install/metatag.metatag_defaults.403.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/config/install/metatag.metatag_defaults.404.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/config/install/metatag.metatag_defaults.404.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/config/install/metatag.metatag_defaults.front.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/config/install/metatag.metatag_defaults.front.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/config/install/metatag.metatag_defaults.global.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/config/install/metatag.metatag_defaults.global.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/config/install/metatag.metatag_defaults.node.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/config/install/metatag.metatag_defaults.node.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/config/install/metatag.metatag_defaults.taxonomy_term.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/config/install/metatag.metatag_defaults.taxonomy_term.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/config/install/metatag.metatag_defaults.user.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/config/install/metatag.metatag_defaults.user.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/config/schema/metatag.metatag_defaults.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/config/schema/metatag.metatag_defaults.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/config/schema/metatag.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/config/schema/metatag.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/config/schema/metatag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/config/schema/metatag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/console.services.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/console.services.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/console/translations/en/generate.metatag.group.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/console/translations/en/generate.metatag.group.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/console/translations/en/generate.metatag.tag.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/console/translations/en/generate.metatag.tag.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag.api.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag.api.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag.install" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag.install" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag.links.action.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag.links.action.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag.links.menu.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag.links.menu.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag.permissions.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag.permissions.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag.services.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag.services.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/config/schema/metatag_app_links.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/config/schema/metatag_app_links.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/metatag_app_links.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/metatag_app_links.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/metatag_app_links.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/metatag_app_links.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Group/AppLinks.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Group/AppLinks.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlAndroidAppName.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlAndroidAppName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlAndroidClass.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlAndroidClass.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlAndroidPackage.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlAndroidPackage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlAndroidUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlAndroidUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIosAppName.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIosAppName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIosAppStoreId.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIosAppStoreId.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIosUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIosUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIpadAppName.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIpadAppName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIpadAppStoreId.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIpadAppStoreId.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIpadUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIpadUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIphoneAppName.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIphoneAppName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIphoneAppStoreId.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIphoneAppStoreId.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIphoneUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlIphoneUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWebShouldFallback.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWebShouldFallback.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWebUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWebUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsAppId.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsAppId.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsAppName.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsAppName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsPhoneAppId.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsPhoneAppId.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsPhoneAppName.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsPhoneAppName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsPhoneUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsPhoneUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsUniversalAppId.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsUniversalAppId.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsUniversalAppName.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsUniversalAppName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsUniversalUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsUniversalUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Plugin/metatag/Tag/AlWindowsUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_app_links/src/Tests/MetatagAppLinksTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_app_links/src/Tests/MetatagAppLinksTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/config/schema/metatag_dc.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/config/schema/metatag_dc.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/metatag_dc.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/metatag_dc.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Group/DublinCore.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Group/DublinCore.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Contributor.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Contributor.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Coverage.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Coverage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Creator.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Creator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Date.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Date.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Description.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Description.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Format.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Format.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Identifier.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Identifier.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Language.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Language.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Publisher.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Publisher.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Relation.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Relation.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Rights.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Rights.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Source.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Source.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Subject.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Subject.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Title.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Title.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Plugin/metatag/Tag/Type.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Plugin/metatag/Tag/Type.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc/src/Tests/MetatagDublinCoreTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc/src/Tests/MetatagDublinCoreTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc_advanced/metatag_dc_advanced.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc_advanced/metatag_dc_advanced.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc_advanced/metatag_dc_advanced.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc_advanced/metatag_dc_advanced.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc_advanced/src/Plugin/metatag/Group/DublinCoreAdvanced.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc_advanced/src/Plugin/metatag/Group/DublinCoreAdvanced.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_dc_advanced/src/Tests/MetatagDublinCoreAdvancedTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_dc_advanced/src/Tests/MetatagDublinCoreAdvancedTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_facebook/config/schema/metatag_facebook.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_facebook/config/schema/metatag_facebook.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_facebook/metatag_facebook.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_facebook/metatag_facebook.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_facebook/src/Plugin/metatag/Group/Facebook.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_facebook/src/Plugin/metatag/Group/Facebook.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_facebook/src/Plugin/metatag/Tag/FbAdmins.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_facebook/src/Plugin/metatag/Tag/FbAdmins.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_facebook/src/Plugin/metatag/Tag/FbAppId.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_facebook/src/Plugin/metatag/Tag/FbAppId.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_facebook/src/Plugin/metatag/Tag/FbPages.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_facebook/src/Plugin/metatag/Tag/FbPages.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_facebook/src/Tests/MetatagFacebookTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_facebook/src/Tests/MetatagFacebookTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/config/schema/metatag_favicons.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/config/schema/metatag_favicons.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/metatag_favicons.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/metatag_favicons.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/metatag_favicons.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/metatag_favicons.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Group/Favicons.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Group/Favicons.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon114x114.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon114x114.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon120x120.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon120x120.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon144x144.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon144x144.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon152x152.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon152x152.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon180x180.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon180x180.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon72x72.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon72x72.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon76x76.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIcon76x76.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed114x114.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed114x114.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed120x120.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed120x120.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed144x144.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed144x144.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed152x152.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed152x152.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed180x180.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed180x180.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed72x72.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed72x72.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed76x76.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/AppleTouchIconPrecomposed76x76.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/Icon16x16.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/Icon16x16.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/Icon192x192.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/Icon192x192.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/Icon32x32.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/Icon32x32.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/Icon96x96.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/Icon96x96.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/LinkSizesBase.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/LinkSizesBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/MaskIcon.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/MaskIcon.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Plugin/metatag/Tag/ShortcutIcon.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Plugin/metatag/Tag/ShortcutIcon.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_favicons/src/Tests/MetatagFaviconsTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_favicons/src/Tests/MetatagFaviconsTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_cse/config/schema/metatag_google_cse.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_cse/config/schema/metatag_google_cse.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_cse/metatag_google_cse.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_cse/metatag_google_cse.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_cse/metatag_google_cse.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_cse/metatag_google_cse.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_cse/src/Plugin/metatag/Group/GoogleCse.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_cse/src/Plugin/metatag/Group/GoogleCse.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_cse/src/Plugin/metatag/Tag/Audience.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_cse/src/Plugin/metatag/Tag/Audience.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_cse/src/Plugin/metatag/Tag/Department.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_cse/src/Plugin/metatag/Tag/Department.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_cse/src/Plugin/metatag/Tag/DocStatus.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_cse/src/Plugin/metatag/Tag/DocStatus.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_cse/src/Plugin/metatag/Tag/GoogleRating.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_cse/src/Plugin/metatag/Tag/GoogleRating.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_cse/src/Plugin/metatag/Tag/Thumbnail.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_cse/src/Plugin/metatag/Tag/Thumbnail.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_cse/src/Tests/MetatagGoogleCSETagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_cse/src/Tests/MetatagGoogleCSETagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_plus/config/schema/metatag_google_plus.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_plus/config/schema/metatag_google_plus.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_plus/metatag_google_plus.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_plus/metatag_google_plus.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_plus/src/Plugin/metatag/Group/GooglePlus.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_plus/src/Plugin/metatag/Group/GooglePlus.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_plus/src/Plugin/metatag/Tag/Author.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_plus/src/Plugin/metatag/Tag/Author.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_plus/src/Plugin/metatag/Tag/Description.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_plus/src/Plugin/metatag/Tag/Description.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_plus/src/Plugin/metatag/Tag/Image.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_plus/src/Plugin/metatag/Tag/Image.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_plus/src/Plugin/metatag/Tag/Name.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_plus/src/Plugin/metatag/Tag/Name.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_plus/src/Plugin/metatag/Tag/Publisher.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_plus/src/Plugin/metatag/Tag/Publisher.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_google_plus/src/Tests/MetatagGooglePlusTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_google_plus/src/Tests/MetatagGooglePlusTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_hreflang/config/schema/metatag_hreflang.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_hreflang/config/schema/metatag_hreflang.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_hreflang/metatag_hreflang.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_hreflang/metatag_hreflang.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_hreflang/metatag_hreflang.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_hreflang/metatag_hreflang.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_hreflang/src/Plugin/Derivative/HreflangDeriver.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_hreflang/src/Plugin/Derivative/HreflangDeriver.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_hreflang/src/Plugin/metatag/Group/Hreflang.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_hreflang/src/Plugin/metatag/Group/Hreflang.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_hreflang/src/Plugin/metatag/Tag/HreflangBase.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_hreflang/src/Plugin/metatag/Tag/HreflangBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_hreflang/src/Plugin/metatag/Tag/HreflangPerLanguage.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_hreflang/src/Plugin/metatag/Tag/HreflangPerLanguage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_hreflang/src/Plugin/metatag/Tag/HreflangXDefault.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_hreflang/src/Plugin/metatag/Tag/HreflangXDefault.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_hreflang/src/Tests/MetatagHreflangTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_hreflang/src/Tests/MetatagHreflangTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/config/schema/metatag_mobile.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/config/schema/metatag_mobile.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/metatag_mobile.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/metatag_mobile.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/metatag_mobile.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/metatag_mobile.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Group/AndroidMobile.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Group/AndroidMobile.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Group/AppleMobile.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Group/AppleMobile.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Group/Mobile.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Group/Mobile.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Group/WindowsMobile.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Group/WindowsMobile.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/AndroidAppLinkAlternative.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/AndroidAppLinkAlternative.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/AndroidManifest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/AndroidManifest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/AppleItunesApp.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/AppleItunesApp.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/AppleMobileWebAppCapable.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/AppleMobileWebAppCapable.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/AppleMobileWebAppStatusBarStyle.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/AppleMobileWebAppStatusBarStyle.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/AppleMobileWebAppTitle.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/AppleMobileWebAppTitle.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/ApplicationName.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/ApplicationName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/Cleartype.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/Cleartype.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/FormatDetection.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/FormatDetection.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/HandheldFriendly.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/HandheldFriendly.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/IosAppLinkAlternative.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/IosAppLinkAlternative.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MobileOptimized.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MobileOptimized.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationAllowDomainApiCalls.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationAllowDomainApiCalls.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationAllowDomainMetaTags.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationAllowDomainMetaTags.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationBadge.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationBadge.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationConfig.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationConfig.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationNavbuttonColor.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationNavbuttonColor.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationNotification.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationNotification.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationSquare150x150logo.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationSquare150x150logo.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationSquare310x310logo.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationSquare310x310logo.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationSquare70x70logo.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationSquare70x70logo.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationStartUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationStartUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationTask.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationTask.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationTaskSeparator.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationTaskSeparator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationTilecolor.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationTilecolor.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationTileimage.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationTileimage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationTooltip.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationTooltip.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationWide310x150logo.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationWide310x150logo.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationWindow.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/MsapplicationWindow.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/ThemeColor.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/ThemeColor.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/Viewport.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/Viewport.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Plugin/metatag/Tag/XUaCompatible.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Plugin/metatag/Tag/XUaCompatible.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_mobile/src/Tests/MetatagMobileTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_mobile/src/Tests/MetatagMobileTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/config/schema/metatag_open_graph.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/config/schema/metatag_open_graph.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/metatag_open_graph.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/metatag_open_graph.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/metatag_open_graph.install" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/metatag_open_graph.install" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/metatag_open_graph.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/metatag_open_graph.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Group/OpenGraph.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Group/OpenGraph.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticleAuthor.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticleAuthor.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticleExpirationTime.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticleExpirationTime.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticleModifiedTime.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticleModifiedTime.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticlePublishedTime.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticlePublishedTime.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticlePublisher.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticlePublisher.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticleSection.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticleSection.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticleTag.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/ArticleTag.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgCountryName.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgCountryName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgDescription.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgDescription.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgDeterminer.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgDeterminer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgEmail.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgEmail.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgFaxNumber.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgFaxNumber.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImage.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImageHeight.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImageHeight.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImageSecureUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImageSecureUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImageType.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImageType.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImageUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImageUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImageWidth.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgImageWidth.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgLatitude.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgLatitude.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgLocale.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgLocale.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgLocaleAlternative.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgLocaleAlternative.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgLocality.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgLocality.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgLongitude.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgLongitude.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgPhoneNumber.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgPhoneNumber.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgPostalCode.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgPostalCode.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgRegion.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgRegion.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgSeeAlso.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgSeeAlso.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgSiteName.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgSiteName.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgStreetAddress.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgStreetAddress.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgTitle.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgTitle.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgType.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgType.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgUpdatedTime.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgUpdatedTime.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgVideo.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgVideo.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgVideoHeight.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgVideoHeight.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgVideoSecureUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgVideoSecureUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgVideoType.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgVideoType.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgVideoWidth.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Plugin/metatag/Tag/OgVideoWidth.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph/src/Tests/MetatagOpenGraphTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph/src/Tests/MetatagOpenGraphTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph_products/metatag_open_graph_products.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph_products/metatag_open_graph_products.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph_products/metatag_open_graph_products.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph_products/metatag_open_graph_products.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph_products/src/Plugin/metatag/Group/OpenGraphProducts.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph_products/src/Plugin/metatag/Group/OpenGraphProducts.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_open_graph_products/src/Tests/MetatagOpenGraphProductsTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_open_graph_products/src/Tests/MetatagOpenGraphProductsTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/config/schema/metatag_twitter_cards.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/config/schema/metatag_twitter_cards.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/metatag_twitter_cards.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/metatag_twitter_cards.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Group/TwitterCards.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Group/TwitterCards.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppIdGooglePlay.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppIdGooglePlay.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppIdIpad.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppIdIpad.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppIdIphone.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppIdIphone.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppNameGooglePlay.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppNameGooglePlay.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppNameIpad.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppNameIpad.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppNameIphone.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppNameIphone.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppStoreCountry.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppStoreCountry.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppUrlGooglePlay.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppUrlGooglePlay.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppUrlIpad.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppUrlIpad.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppUrlIphone.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsAppUrlIphone.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsCreator.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsCreator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsCreatorId.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsCreatorId.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsData1.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsData1.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsData2.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsData2.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsDescription.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsDescription.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsDoNotTrack.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsDoNotTrack.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsGalleryImage0.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsGalleryImage0.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsGalleryImage1.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsGalleryImage1.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsGalleryImage2.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsGalleryImage2.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsGalleryImage3.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsGalleryImage3.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsImage.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsImage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsImageAlt.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsImageAlt.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsImageHeight.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsImageHeight.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsImageWidth.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsImageWidth.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsLabel1.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsLabel1.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsLabel2.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsLabel2.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPageUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPageUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPlayer.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPlayer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPlayerHeight.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPlayerHeight.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPlayerStream.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPlayerStream.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPlayerStreamContentType.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPlayerStreamContentType.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPlayerWidth.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsPlayerWidth.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsSite.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsSite.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsSiteId.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsSiteId.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsTitle.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsTitle.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsType.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Plugin/metatag/Tag/TwitterCardsType.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_twitter_cards/src/Tests/MetatagTwitterCardsTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_twitter_cards/src/Tests/MetatagTwitterCardsTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_verification/config/schema/metatag_verification.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_verification/config/schema/metatag_verification.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_verification/metatag_verification.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_verification/metatag_verification.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_verification/src/Plugin/metatag/Group/SiteVerification.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_verification/src/Plugin/metatag/Group/SiteVerification.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_verification/src/Plugin/metatag/Tag/Baidu.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_verification/src/Plugin/metatag/Tag/Baidu.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_verification/src/Plugin/metatag/Tag/Bing.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_verification/src/Plugin/metatag/Tag/Bing.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_verification/src/Plugin/metatag/Tag/Google.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_verification/src/Plugin/metatag/Tag/Google.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_verification/src/Plugin/metatag/Tag/NortonSafeWeb.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_verification/src/Plugin/metatag/Tag/NortonSafeWeb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_verification/src/Plugin/metatag/Tag/Pinterest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_verification/src/Plugin/metatag/Tag/Pinterest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_verification/src/Plugin/metatag/Tag/Yandex.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_verification/src/Plugin/metatag/Tag/Yandex.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_verification/src/Tests/MetatagVerificationTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_verification/src/Tests/MetatagVerificationTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/config/schema/metatag_views.views.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/config/schema/metatag_views.views.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/metatag_views.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/metatag_views.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/metatag_views.install" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/metatag_views.install" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/metatag_views.links.action.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/metatag_views.links.action.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/metatag_views.links.task.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/metatag_views.links.task.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/metatag_views.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/metatag_views.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/metatag_views.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/metatag_views.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/src/Controller/MetatagViewsController.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/src/Controller/MetatagViewsController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/src/Controller/MetatagViewsTranslationController.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/src/Controller/MetatagViewsTranslationController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/src/Form/MetatagViewsAddForm.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/src/Form/MetatagViewsAddForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/src/Form/MetatagViewsEditForm.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/src/Form/MetatagViewsEditForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/src/Form/MetatagViewsRevertForm.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/src/Form/MetatagViewsRevertForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/src/Form/MetatagViewsTranslationForm.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/src/Form/MetatagViewsTranslationForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/src/MetatagViewsValuesCleanerTrait.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/src/MetatagViewsValuesCleanerTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/src/Plugin/views/display_extender/MetatagDisplayExtender.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/src/Plugin/views/display_extender/MetatagDisplayExtender.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/templates/config_translation_manage_form_element.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/templates/config_translation_manage_form_element.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/metatag_views/tests/src/Functional/MetatagViewsBasicsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/metatag_views/tests/src/Functional/MetatagViewsBasicsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Annotation/MetatagGroup.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Annotation/MetatagGroup.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Annotation/MetatagTag.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Annotation/MetatagTag.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Command/GenerateGroupCommand.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Command/GenerateGroupCommand.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Command/GenerateTagCommand.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Command/GenerateTagCommand.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Entity/MetatagDefaults.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Entity/MetatagDefaults.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Form/MetatagDefaultsDeleteForm.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Form/MetatagDefaultsDeleteForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Form/MetatagDefaultsForm.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Form/MetatagDefaultsForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Form/MetatagDefaultsRevertForm.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Form/MetatagDefaultsRevertForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Generator/MetatagGroupGenerator.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Generator/MetatagGroupGenerator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Generator/MetatagTagGenerator.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Generator/MetatagTagGenerator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/MetatagDefaultsInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/MetatagDefaultsInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/MetatagDefaultsListBuilder.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/MetatagDefaultsListBuilder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/MetatagGroupPluginManager.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/MetatagGroupPluginManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/MetatagManager.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/MetatagManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/MetatagManagerInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/MetatagManagerInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/MetatagTagPluginManager.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/MetatagTagPluginManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/MetatagToken.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/MetatagToken.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Normalizer/FieldItemNormalizer.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Normalizer/FieldItemNormalizer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Normalizer/MetatagHalNormalizer.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Normalizer/MetatagHalNormalizer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Normalizer/MetatagNormalizer.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Normalizer/MetatagNormalizer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/DataType/Metatag.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/DataType/Metatag.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/DataType/MetatagInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/DataType/MetatagInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/Field/FieldFormatter/MetatagEmptyFormatter.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/Field/FieldFormatter/MetatagEmptyFormatter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/Field/FieldType/MetatagFieldItem.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/Field/FieldType/MetatagFieldItem.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/Field/FieldWidget/MetatagFirehose.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/Field/FieldWidget/MetatagFirehose.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/Field/MetatagEntityFieldItemList.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/Field/MetatagEntityFieldItemList.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Group/Advanced.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Group/Advanced.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Group/AppLinks.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Group/AppLinks.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Group/Basic.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Group/Basic.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Group/DublinCoreAdvanced.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Group/DublinCoreAdvanced.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Group/DublinCoreBasic.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Group/DublinCoreBasic.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Group/Facebook.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Group/Facebook.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Group/GooglePlus.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Group/GooglePlus.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Group/GroupBase.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Group/GroupBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Group/SiteValidation.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Group/SiteValidation.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Group/TwitterCards.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Group/TwitterCards.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/AbstractTag.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/AbstractTag.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/CanonicalUrl.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/CanonicalUrl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/ContentLanguage.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/ContentLanguage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/Description.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/Description.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/Generator.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/Generator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/GeoPlacename.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/GeoPlacename.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/GeoPosition.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/GeoPosition.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/GeoRegion.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/GeoRegion.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/Icbm.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/Icbm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/ImageSrc.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/ImageSrc.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/Keywords.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/Keywords.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/LinkRelBase.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/LinkRelBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/MetaHttpEquivBase.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/MetaHttpEquivBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/MetaItempropBase.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/MetaItempropBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/MetaNameBase.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/MetaNameBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/MetaPropertyBase.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/MetaPropertyBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/NewsKeywords.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/NewsKeywords.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/OriginalSource.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/OriginalSource.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/Referrer.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/Referrer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/Rights.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/Rights.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/Robots.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/Robots.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/SetCookie.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/SetCookie.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/ShortLink.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/ShortLink.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/Standout.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/Standout.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Plugin/metatag/Tag/Title.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Plugin/metatag/Tag/Title.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagAdminTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagAdminTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagConfigTranslationTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagConfigTranslationTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagCustomRouteTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagCustomRouteTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagFieldNodeTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagFieldNodeTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagFieldTermTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagFieldTermTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagFieldTestBase.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagFieldTestBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagFieldTestTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagFieldTestTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagFieldUserTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagFieldUserTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagForumTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagForumTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagFrontpageTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagFrontpageTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagHelperTrait.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagHelperTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagNodeTranslationTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagNodeTranslationTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagStringTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagStringTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagTagTypesTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagTagTypesTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagTagsTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagTagsTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagTagsTestBase.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagTagsTestBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/MetatagXssTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/MetatagXssTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/src/Tests/WithRedirect.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/src/Tests/WithRedirect.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/templates/generator.php.twig" afterPath="$PROJECT_DIR$/modules/contrib/metatag/templates/generator.php.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/templates/group.php.twig" afterPath="$PROJECT_DIR$/modules/contrib/metatag/templates/group.php.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/templates/metatag_tag.schema.yml.twig" afterPath="$PROJECT_DIR$/modules/contrib/metatag/templates/metatag_tag.schema.yml.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/templates/tag.php.twig" afterPath="$PROJECT_DIR$/modules/contrib/metatag/templates/tag.php.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/modules/metatag_test_custom_route/metatag_test_custom_route.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/modules/metatag_test_custom_route/metatag_test_custom_route.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/modules/metatag_test_custom_route/metatag_test_custom_route.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/modules/metatag_test_custom_route/metatag_test_custom_route.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/modules/metatag_test_custom_route/metatag_test_custom_route.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/modules/metatag_test_custom_route/metatag_test_custom_route.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/modules/metatag_test_custom_route/src/Controller/MetatagTestCustomRouteController.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/modules/metatag_test_custom_route/src/Controller/MetatagTestCustomRouteController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/modules/metatag_test_tag/config/schema/metatag_test_tag.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/modules/metatag_test_tag/config/schema/metatag_test_tag.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/modules/metatag_test_tag/metatag_test_tag.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/modules/metatag_test_tag/metatag_test_tag.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/modules/metatag_test_tag/metatag_test_tag.metatag_tag.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/modules/metatag_test_tag/metatag_test_tag.metatag_tag.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/modules/metatag_test_tag/metatag_test_tag.module" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/modules/metatag_test_tag/metatag_test_tag.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/modules/metatag_test_tag/src/Plugin/metatag/Tag/MetatagTestTag.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/modules/metatag_test_tag/src/Plugin/metatag/Tag/MetatagTestTag.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/src/Functional/DefaultTags.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/src/Functional/DefaultTags.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/src/Functional/EnsureDevelWebProfilerWorks.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/src/Functional/EnsureDevelWebProfilerWorks.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/src/Functional/EnsureDevelWorks.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/src/Functional/EnsureDevelWorks.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/src/Functional/MetatagHelperTrait.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/src/Functional/MetatagHelperTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/src/Functional/NodeJsonOutput.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/src/Functional/NodeJsonOutput.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/src/Functional/NodeTranslation.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/src/Functional/NodeTranslation.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/src/Functional/RemoveCoreMetaTags.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/src/Functional/RemoveCoreMetaTags.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/metatag/tests/src/Kernel/MetatagManagerTest.php" afterPath="$PROJECT_DIR$/modules/contrib/metatag/tests/src/Kernel/MetatagManagerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/paragraphs_viewmode/LICENSE.txt" afterPath="$PROJECT_DIR$/modules/contrib/paragraphs_viewmode/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/paragraphs_viewmode/README.md" afterPath="$PROJECT_DIR$/modules/contrib/paragraphs_viewmode/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/paragraphs_viewmode/composer.json" afterPath="$PROJECT_DIR$/modules/contrib/paragraphs_viewmode/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/paragraphs_viewmode/config/schema/paragraphs_viewmode.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/paragraphs_viewmode/config/schema/paragraphs_viewmode.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/paragraphs_viewmode/paragraphs_viewmode.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/paragraphs_viewmode/paragraphs_viewmode.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/paragraphs_viewmode/paragraphs_viewmode.module" afterPath="$PROJECT_DIR$/modules/contrib/paragraphs_viewmode/paragraphs_viewmode.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/paragraphs_viewmode/src/ParagraphsViewmodeBehaviorInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/paragraphs_viewmode/src/ParagraphsViewmodeBehaviorInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/paragraphs_viewmode/src/Plugin/paragraphs/Behavior/ParagraphsViewmodeBehavior.php" afterPath="$PROJECT_DIR$/modules/contrib/paragraphs_viewmode/src/Plugin/paragraphs/Behavior/ParagraphsViewmodeBehavior.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/paragraphs_viewmode/tests/src/Functional/LoadTest.php" afterPath="$PROJECT_DIR$/modules/contrib/paragraphs_viewmode/tests/src/Functional/LoadTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/responsive_tables_filter/LICENSE.txt" afterPath="$PROJECT_DIR$/modules/contrib/responsive_tables_filter/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/responsive_tables_filter/README.md" afterPath="$PROJECT_DIR$/modules/contrib/responsive_tables_filter/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/responsive_tables_filter/css/tablesaw.stackonly.css" afterPath="$PROJECT_DIR$/modules/contrib/responsive_tables_filter/css/tablesaw.stackonly.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/responsive_tables_filter/js/tablesaw-init.js" afterPath="$PROJECT_DIR$/modules/contrib/responsive_tables_filter/js/tablesaw-init.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/responsive_tables_filter/js/tablesaw.stackonly.js" afterPath="$PROJECT_DIR$/modules/contrib/responsive_tables_filter/js/tablesaw.stackonly.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/responsive_tables_filter/responsive_tables_filter.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/responsive_tables_filter/responsive_tables_filter.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/responsive_tables_filter/responsive_tables_filter.libraries.yml" afterPath="$PROJECT_DIR$/modules/contrib/responsive_tables_filter/responsive_tables_filter.libraries.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/responsive_tables_filter/responsive_tables_filter.module" afterPath="$PROJECT_DIR$/modules/contrib/responsive_tables_filter/responsive_tables_filter.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/responsive_tables_filter/src/Plugin/Filter/FilterResponsiveTablesFilter.php" afterPath="$PROJECT_DIR$/modules/contrib/responsive_tables_filter/src/Plugin/Filter/FilterResponsiveTablesFilter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/responsive_tables_filter/tests/src/Unit/FilterProcessTest.php" afterPath="$PROJECT_DIR$/modules/contrib/responsive_tables_filter/tests/src/Unit/FilterProcessTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/simple_menu_icons/LICENSE.txt" afterPath="$PROJECT_DIR$/modules/contrib/simple_menu_icons/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/simple_menu_icons/simple_menu_icons.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/simple_menu_icons/simple_menu_icons.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/simple_menu_icons/simple_menu_icons.module" afterPath="$PROJECT_DIR$/modules/contrib/simple_menu_icons/simple_menu_icons.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/simple_menu_icons/templates/simple-menu-icons-css-item.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/simple_menu_icons/templates/simple-menu-icons-css-item.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/LICENSE.txt" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/README.txt" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/README.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/config/install/tablefield.settings.yml" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/config/install/tablefield.settings.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/src/Controller/TablefieldController.php" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/src/Controller/TablefieldController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/src/Element/Tablefield.php" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/src/Element/Tablefield.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/src/Form/TablefieldConfigForm.php" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/src/Form/TablefieldConfigForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/src/Plugin/Field/FieldFormatter/TablefieldFormatter.php" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/src/Plugin/Field/FieldFormatter/TablefieldFormatter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/src/Plugin/Field/FieldType/TablefieldItem.php" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/src/Plugin/Field/FieldType/TablefieldItem.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/src/Plugin/Field/FieldWidget/TablefieldWidget.php" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/src/Plugin/Field/FieldWidget/TablefieldWidget.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/src/Utility/Tablefield.php" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/src/Utility/Tablefield.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/tablefield.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/tablefield.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/tablefield.install" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/tablefield.install" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/tablefield.links.menu.yml" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/tablefield.links.menu.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/tablefield.permissions.yml" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/tablefield.permissions.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/tablefield/tablefield.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/tablefield/tablefield.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/.travis.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/LICENSE.txt" afterPath="$PROJECT_DIR$/modules/contrib/token/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/README.md" afterPath="$PROJECT_DIR$/modules/contrib/token/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/css/jquery.treetable.css" afterPath="$PROJECT_DIR$/modules/contrib/token/css/jquery.treetable.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/css/token.css" afterPath="$PROJECT_DIR$/modules/contrib/token/css/token.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/css/token.treetable.theme.css" afterPath="$PROJECT_DIR$/modules/contrib/token/css/token.treetable.theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/js/jquery.treetable.js" afterPath="$PROJECT_DIR$/modules/contrib/token/js/jquery.treetable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/js/token.js" afterPath="$PROJECT_DIR$/modules/contrib/token/js/token.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Controller/TokenAutocompleteController.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Controller/TokenAutocompleteController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Controller/TokenCacheController.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Controller/TokenCacheController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Controller/TokenDevelController.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Controller/TokenDevelController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Controller/TokenTreeController.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Controller/TokenTreeController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Element/TokenTreeTable.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Element/TokenTreeTable.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Plugin/Derivative/DevelLocalTask.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Plugin/Derivative/DevelLocalTask.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Routing/RouteSubscriber.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Routing/RouteSubscriber.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/TokenBlockTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenBlockTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/TokenCurrentPageTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenCurrentPageTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/TokenFieldUiTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenFieldUiTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/TokenMenuTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenMenuTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/TokenTestBase.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenTestBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/TokenTestTrait.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenTestTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/TokenURLTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenURLTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/TokenUserTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenUserTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/Tree/AutocompleteTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/Tree/AutocompleteTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/Tree/HelpPageTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/Tree/HelpPageTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/Tree/TokenTreeTestTrait.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/Tree/TokenTreeTestTrait.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Tests/Tree/TreeTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/Tree/TreeTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/Token.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Token.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/TokenEntityMapper.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TokenEntityMapper.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/TokenEntityMapperInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TokenEntityMapperInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/TokenInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TokenInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/TokenServiceProvider.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TokenServiceProvider.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/TreeBuilder.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TreeBuilder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/src/TreeBuilderInterface.php" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TreeBuilderInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/templates/token-tree-link.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/token/templates/token-tree-link.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_module_test/config/install/core.date_format.token_module_test.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/config/install/core.date_format.token_module_test.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_module_test/src/Controller/TokenTreeBrowseController.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/src/Controller/TokenTreeBrowseController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_module_test/token_module_test.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/token_module_test.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_module_test/token_module_test.module" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/token_module_test.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_module_test/token_module_test.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/token_module_test.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_module_test/token_module_test.tokens.inc" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/token_module_test.tokens.inc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_user_picture/config/install/core.entity_form_display.user.user.default.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_user_picture/config/install/core.entity_form_display.user.user.default.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_user_picture/config/install/field.field.user.user.user_picture.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_user_picture/config/install/field.field.user.user.user_picture.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_user_picture/config/install/field.storage.user.user_picture.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_user_picture/config/install/field.storage.user.user_picture.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_user_picture/token_user_picture.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_user_picture/token_user_picture.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/ArrayTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/ArrayTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/BookTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/BookTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/CommentTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/CommentTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/DateTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/DateTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/EntityTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/EntityTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/FieldTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/FieldTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/FileTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/FileTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/KernelTestBase.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/KernelTestBase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/NodeTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/NodeTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/RandomTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/RandomTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/TaxonomyTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/TaxonomyTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/UnitTest.php" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/UnitTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/token.drush.inc" afterPath="$PROJECT_DIR$/modules/contrib/token/token.drush.inc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/token.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/token.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/token.install" afterPath="$PROJECT_DIR$/modules/contrib/token/token.install" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/token.libraries.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/token.libraries.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/token.links.task.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/token.links.task.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/token.module" afterPath="$PROJECT_DIR$/modules/contrib/token/token.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/token.pages.inc" afterPath="$PROJECT_DIR$/modules/contrib/token/token.pages.inc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/token.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/token.routing.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/token.services.yml" afterPath="$PROJECT_DIR$/modules/contrib/token/token.services.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/token/token.tokens.inc" afterPath="$PROJECT_DIR$/modules/contrib/token/token.tokens.inc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/LICENSE.txt" afterPath="$PROJECT_DIR$/modules/contrib/youtube/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/README.txt" afterPath="$PROJECT_DIR$/modules/contrib/youtube/README.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/config/install/youtube.settings.yml" afterPath="$PROJECT_DIR$/modules/contrib/youtube/config/install/youtube.settings.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/config/schema/youtube.schema.yml" afterPath="$PROJECT_DIR$/modules/contrib/youtube/config/schema/youtube.schema.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/css/youtube.responsive.css" afterPath="$PROJECT_DIR$/modules/contrib/youtube/css/youtube.responsive.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/src/Form/YoutubeSettingsForm.php" afterPath="$PROJECT_DIR$/modules/contrib/youtube/src/Form/YoutubeSettingsForm.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/src/Plugin/Field/FieldFormatter/YouTubeFormatter.php" afterPath="$PROJECT_DIR$/modules/contrib/youtube/src/Plugin/Field/FieldFormatter/YouTubeFormatter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/src/Plugin/Field/FieldFormatter/YouTubeThumbFormatter.php" afterPath="$PROJECT_DIR$/modules/contrib/youtube/src/Plugin/Field/FieldFormatter/YouTubeThumbFormatter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/src/Plugin/Field/FieldFormatter/YouTubeUrlFormatter.php" afterPath="$PROJECT_DIR$/modules/contrib/youtube/src/Plugin/Field/FieldFormatter/YouTubeUrlFormatter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/src/Plugin/Field/FieldType/YouTubeItem.php" afterPath="$PROJECT_DIR$/modules/contrib/youtube/src/Plugin/Field/FieldType/YouTubeItem.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/src/Plugin/Field/FieldWidget/YouTubeDefaultWidget.php" afterPath="$PROJECT_DIR$/modules/contrib/youtube/src/Plugin/Field/FieldWidget/YouTubeDefaultWidget.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/src/Tests/YouTubeTest.php" afterPath="$PROJECT_DIR$/modules/contrib/youtube/src/Tests/YouTubeTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/templates/youtube-thumbnail.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/youtube/templates/youtube-thumbnail.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/templates/youtube-video.html.twig" afterPath="$PROJECT_DIR$/modules/contrib/youtube/templates/youtube-video.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/youtube.info.yml" afterPath="$PROJECT_DIR$/modules/contrib/youtube/youtube.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/youtube.libraries.yml" afterPath="$PROJECT_DIR$/modules/contrib/youtube/youtube.libraries.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/youtube.links.menu.yml" afterPath="$PROJECT_DIR$/modules/contrib/youtube/youtube.links.menu.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/youtube.module" afterPath="$PROJECT_DIR$/modules/contrib/youtube/youtube.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/youtube.permissions.yml" afterPath="$PROJECT_DIR$/modules/contrib/youtube/youtube.permissions.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/youtube/youtube.routing.yml" afterPath="$PROJECT_DIR$/modules/contrib/youtube/youtube.routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contrib/pathauto" afterPath="$PROJECT_DIR$/modules/contrib/pathauto" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="madp.iws" />
@@ -497,10 +1024,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-        <subPane subId="Default" />
-      </pane>
       <pane id="Scratches">
         <subPane>
           <PATH>
@@ -518,6 +1041,10 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+        <subPane subId="Default" />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -568,54 +1095,6 @@
               <option name="myItemId" value="contrib" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webform" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="madp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="madp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contrib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webform" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="madp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="madp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contrib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -630,13 +1109,13 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modules/contrib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/madp/templates/page" />
       <recent name="$PROJECT_DIR$/modules/contrib" />
       <recent name="$PROJECT_DIR$/themes/madp/templates/menu" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/contrib" />
     </key>
   </component>
   <component name="RunManager">
@@ -717,11 +1196,12 @@
       <workItem from="1519921200209" duration="3060000" />
       <workItem from="1520111806555" duration="1359000" />
       <workItem from="1520245939549" duration="1874000" />
+      <workItem from="1522059478879" duration="193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45665000" />
+    <option name="totallyTimeSpent" value="45858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -734,13 +1214,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="-4" width="1313" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40948617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4166008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.5059195" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.4940805" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4059098" sideWeight="0.4940805" order="7" side_tool="false" content_ui="tabs" />
@@ -749,7 +1230,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.4940805" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -912,14 +1392,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/contrib/special_menu_items/src/MenuLinkContent.php" />
-    <entry file="file://$PROJECT_DIR$/modules/simple_menu_icons/templates/simple-menu-icons-css-item.html.twig">
+    <entry file="file://$PROJECT_DIR$/modules/contrib/simple_menu_icons/templates/simple-menu-icons-css-item.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/simple_menu_icons/simple_menu_icons.info.yml">
+    <entry file="file://$PROJECT_DIR$/modules/contrib/simple_menu_icons/simple_menu_icons.info.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -937,7 +1417,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/contrib/hierarchical_taxonomy_menu/js/hierarchical-taxonomy-menu.js" />
-    <entry file="file://$PROJECT_DIR$/modules/simple_menu_icons/simple_menu_icons.module">
+    <entry file="file://$PROJECT_DIR$/modules/contrib/simple_menu_icons/simple_menu_icons.module">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -972,13 +1452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/madp/templates/system/page.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/madp/templates/system/page.html.twig" />
     <entry file="file://$PROJECT_DIR$/modules/contrib/views_bootstrap/src/Plugin/views/style/ViewsBootstrapTab.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1012,7 +1486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
