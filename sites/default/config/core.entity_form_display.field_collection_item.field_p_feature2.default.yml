@@ -1,0 +1,30 @@
+uuid: 81041abc-da62-4bb2-9067-e244c91c07eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_p_feature2.field_fc_content
+    - field.field.field_collection_item.field_p_feature2.field_fc_title
+    - field_collection.field_collection.field_p_feature2
+id: field_collection_item.field_p_feature2.default
+targetEntityType: field_collection_item
+bundle: field_p_feature2
+mode: default
+content:
+  field_fc_content:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_fc_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden: {  }

@@ -1,0 +1,33 @@
+uuid: 35e7d093-9ea2-4e88-9fd8-06e914777d97
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.faq_page
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - madp
+third_party_settings:
+  block_class:
+    classes: ''
+id: exposedformfaq_pagepage_1
+theme: madp
+region: left
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:faq_page-page_1'
+settings:
+  id: 'views_exposed_filter_block:faq_page-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "/faq\r\n/search/faq"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,19 @@
+uuid: 6ee80639-f7e8-47bf-adca-d30374e141b6
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - paragraphs
+id: paragraph.field_p_feature2
+field_name: field_p_feature2
+entity_type: paragraph
+type: field_collection
+settings: {  }
+module: field_collection
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

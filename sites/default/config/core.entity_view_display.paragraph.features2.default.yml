@@ -1,0 +1,31 @@
+uuid: fecc473b-74ee-4d17-81ab-17288e6116f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.features2.field_p_feature2
+    - field.field.paragraph.features2.field_p_title
+    - paragraphs.paragraphs_type.features2
+  module:
+    - field_collection
+id: paragraph.features2.default
+targetEntityType: paragraph
+bundle: features2
+mode: default
+content:
+  field_p_feature2:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_items
+    region: content
+  field_p_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,24 @@
+uuid: d78e9cfb-cac5-4bdc-b1af-4f11c92bf2c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.menu.field_paragraph_menu
+    - field.field.paragraph.menu.field_paragraph_menu_1
+    - paragraphs.paragraphs_type.menu
+  module:
+    - field_collection
+id: paragraph.menu.default
+targetEntityType: paragraph
+bundle: menu
+mode: default
+content:
+  field_paragraph_menu_1:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_items
+    region: content
+hidden:
+  field_paragraph_menu: true

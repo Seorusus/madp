@@ -1,0 +1,11 @@
+uuid: b5cfca79-dbd7-43dd-bf20-d44715693c5b
+langcode: en
+status: true
+dependencies: {  }
+id: node__discover_the_offer
+label: 'Content: Découvrir l’offre'
+tags:
+  title: 'Découvrir l’offre – MADP Direct Complémentaire chômage'
+  keywords: 'Découvrir l’offre'
+  description: 'Découvrir l’offre – MADP Direct Complémentaire chômage'
+  abstract: 'Découvrir l’offre – MADP Direct Complémentaire chômage'

@@ -1,0 +1,9 @@
+uuid: 233a93dd-1fc9-4f00-98b6-f52664e3e409
+langcode: fr
+status: true
+dependencies: {  }
+name: 'FAQ theme'
+vid: faq_theme
+description: ''
+hierarchy: 0
+weight: 0

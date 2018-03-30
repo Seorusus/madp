@@ -1,0 +1,21 @@
+uuid: b1df194e-44c0-44f3-82a1-3f61358d0838
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_menu
+    - paragraphs.paragraphs_type.menu
+  module:
+    - field_collection
+id: paragraph.menu.field_paragraph_menu
+field_name: field_paragraph_menu
+entity_type: paragraph
+bundle: menu
+label: 'Paragraph menu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

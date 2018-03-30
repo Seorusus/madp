@@ -1,0 +1,19 @@
+uuid: 0fcd65fc-abdf-42ec-ba1d-24ac6f102b46
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - paragraphs
+id: paragraph.field_paragraph_menu
+field_name: field_paragraph_menu
+entity_type: paragraph
+type: field_collection
+settings: {  }
+module: field_collection
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

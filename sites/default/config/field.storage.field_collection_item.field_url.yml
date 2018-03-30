@@ -1,0 +1,19 @@
+uuid: 9927c61d-4b43-4c88-8fc5-b8583731bb91
+langcode: fr
+status: true
+dependencies:
+  module:
+    - field_collection
+    - link
+id: field_collection_item.field_url
+field_name: field_url
+entity_type: field_collection_item
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

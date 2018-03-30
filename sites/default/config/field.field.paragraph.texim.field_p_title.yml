@@ -1,0 +1,19 @@
+uuid: cea9b39e-574c-4ef7-a710-b9d4e99157a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_title
+    - paragraphs.paragraphs_type.texim
+id: paragraph.texim.field_p_title
+field_name: field_p_title
+entity_type: paragraph
+bundle: texim
+label: 'Paragraph title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

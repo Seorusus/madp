@@ -1,0 +1,29 @@
+uuid: 23127d31-25c0-4853-a252-0536439ddf2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.faq-metatags
+  module:
+    - system
+  theme:
+    - seven
+id: faqmetatags
+theme: seven
+region: content
+weight: -4
+provider: null
+plugin: 'system_menu_block:faq-metatags'
+settings:
+  id: 'system_menu_block:faq-metatags'
+  label: 'FAQ metatags'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/8/edit
+    negate: false
+    context_mapping: {  }

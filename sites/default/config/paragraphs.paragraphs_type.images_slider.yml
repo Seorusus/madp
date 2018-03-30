@@ -1,0 +1,16 @@
+uuid: 36051cc8-f5c2-4d84-a675-850334866531
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:9e7eb1ab-8c16-4403-9833-6aae42a7203b'
+  module:
+    - paragraphs_viewmode
+id: images_slider
+label: 'Images slider'
+icon_uuid: 9e7eb1ab-8c16-4403-9833-6aae42a7203b
+description: 'Use Images for adding images slider.'
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

@@ -1,0 +1,19 @@
+uuid: 137c63ba-e183-445b-85b7-b200d5a78405
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - text
+id: field_collection_item.field_fc_tabs_content
+field_name: field_fc_tabs_content
+entity_type: field_collection_item
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

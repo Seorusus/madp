@@ -1,0 +1,30 @@
+uuid: 911d5de5-d07a-4f49-9651-c9f017664c43
+langcode: fr
+status: true
+dependencies:
+  module:
+    - field_collection
+    - file
+    - image
+id: field_collection_item.field_image
+field_name: field_image
+entity_type: field_collection_item
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

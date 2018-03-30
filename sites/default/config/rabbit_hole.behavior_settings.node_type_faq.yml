@@ -1,0 +1,9 @@
+uuid: 1a6a2181-e868-444f-a7ca-3d9768056f1f
+langcode: en
+status: true
+dependencies: {  }
+id: node_type_faq
+action: page_redirect
+allow_override: 0
+redirect: /faq
+redirect_code: 301

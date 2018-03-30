@@ -1,0 +1,23 @@
+uuid: ea270b14-82ca-416e-87c7-e8220683daf6
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform_demo_event_registration
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: k2yFrj6Zj-AelnWNEebefbmMcRfi6_e6ThbYRI4XjcM
+name: 'Demo: Event'
+type: webform_demo_event
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

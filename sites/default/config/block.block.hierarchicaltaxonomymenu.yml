@@ -1,0 +1,42 @@
+uuid: e9262114-90a2-48d1-b56f-e2ba5f1c83b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - hierarchical_taxonomy_menu
+    - system
+  theme:
+    - madp
+third_party_settings:
+  block_class:
+    classes: ''
+id: hierarchicaltaxonomymenu
+theme: madp
+region: left
+weight: 0
+provider: null
+plugin: hierarchical_taxonomy_menu
+settings:
+  id: hierarchical_taxonomy_menu
+  label: 'Hierarchical Taxonomy Menu'
+  provider: hierarchical_taxonomy_menu
+  label_display: '0'
+  vocabulary: faq_theme|
+  max_depth: '10'
+  max_age: '0'
+  base_term: ''
+  use_image_style: 0
+  image_height: '16'
+  image_width: '16'
+  image_style: m_v
+  collapsible: 0
+  interactive_parent: 1
+  dynamic_base_term: 0
+  dynamic_block_title: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: "/faq\r\n/faq/*"
+    negate: false
+    context_mapping: {  }

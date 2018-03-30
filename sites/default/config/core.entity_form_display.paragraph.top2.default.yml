@@ -1,0 +1,24 @@
+uuid: 4127b362-a063-49ee-8c48-35921077f9a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.top2.field_p_features1
+    - paragraphs.paragraphs_type.top2
+id: paragraph.top2.default
+targetEntityType: paragraph
+bundle: top2
+mode: default
+content:
+  field_p_features1:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

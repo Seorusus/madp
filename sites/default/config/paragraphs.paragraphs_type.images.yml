@@ -1,0 +1,18 @@
+uuid: ca6a4077-cd47-4657-8aa7-3b5a220eafe3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:7199e467-00ee-4164-9282-bb9f1e42c196'
+  module:
+    - paragraphs_viewmode
+_core:
+  default_config_hash: DGb4aV39gpvoK2px2xeeK4MOLA2FxH4Leq0UZ0en9Fo
+id: images
+label: Image
+icon_uuid: 7199e467-00ee-4164-9282-bb9f1e42c196
+description: 'Use <em>Image</em> for adding one image.'
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

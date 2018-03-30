@@ -1,0 +1,9 @@
+handlers:
+  email_confirmation:
+    settings:
+      from_name: Standardeinstellung
+      subject: Standardeinstellung
+  email_notification:
+    label: E-Mail-Benachrichtigung
+    settings:
+      subject: Standardeinstellung

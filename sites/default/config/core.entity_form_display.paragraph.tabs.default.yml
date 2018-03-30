@@ -1,0 +1,33 @@
+uuid: df211d22-65f6-4e42-96ce-95a8ed818562
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tabs.field_p_tabs
+    - field.field.paragraph.tabs.field_p_title
+    - paragraphs.paragraphs_type.tabs
+  module:
+    - field_collection
+id: paragraph.tabs.default
+targetEntityType: paragraph
+bundle: tabs
+mode: default
+content:
+  field_p_tabs:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+    region: content
+  field_p_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

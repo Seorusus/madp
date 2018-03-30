@@ -1,0 +1,21 @@
+uuid: 6b9fa0e8-1059-4fdd-b9ac-25cbc1b04063
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.discover_the_offer.field_paragraph
+    - node.type.discover_the_offer
+  module:
+    - user
+id: node.discover_the_offer.teaser
+targetEntityType: node
+bundle: discover_the_offer
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_paragraph: true
+  langcode: true

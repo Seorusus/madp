@@ -1,0 +1,29 @@
+uuid: a6f4a3db-a235-45a5-b98c-59fde2ed2722
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:929161e1-65d0-4dc0-8c28-35dae75a00af'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - madp
+third_party_settings:
+  block_class:
+    classes: ''
+id: faqfooterlink
+theme: madp
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:929161e1-65d0-4dc0-8c28-35dae75a00af'
+settings:
+  id: 'block_content:929161e1-65d0-4dc0-8c28-35dae75a00af'
+  label: 'FAQ footer link'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

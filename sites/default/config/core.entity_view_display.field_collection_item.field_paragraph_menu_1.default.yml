@@ -1,0 +1,65 @@
+uuid: 9a07f339-8f9d-4b00-9b97-667da2e35009
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_paragraph_menu_1.field_paragraph_image
+    - field.field.field_collection_item.field_paragraph_menu_1.field_paragraph_link
+    - field_collection.field_collection.field_paragraph_menu_1
+    - image.style.thumbnail
+  module:
+    - ds
+    - field_formatter_class
+    - image
+    - link
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col
+      library: ds/ds_2col
+      disable_css: false
+      entity_classes: no_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - field_paragraph_image
+      right:
+        - field_paragraph_link
+id: field_collection_item.field_paragraph_menu_1.default
+targetEntityType: field_collection_item
+bundle: field_paragraph_menu_1
+mode: default
+content:
+  field_paragraph_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    type: image
+    region: left
+  field_paragraph_link:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link_separate
+    region: right
+hidden: {  }

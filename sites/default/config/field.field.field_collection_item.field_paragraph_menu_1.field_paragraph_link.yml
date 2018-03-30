@@ -1,0 +1,23 @@
+uuid: c2e8f894-0982-4d52-a2f0-d275d50f01d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_paragraph_link
+    - field_collection.field_collection.field_paragraph_menu_1
+  module:
+    - link
+id: field_collection_item.field_paragraph_menu_1.field_paragraph_link
+field_name: field_paragraph_link
+entity_type: field_collection_item
+bundle: field_paragraph_menu_1
+label: 'Paragraph link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

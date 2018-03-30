@@ -1,0 +1,18 @@
+settings:
+  default_submit_button_label: Absenden
+  default_reset_button_label: Zurücksetzen
+  default_wizard_prev_button_label: '< Vorherige Seite'
+  default_wizard_next_button_label: 'Nächste Seite >'
+  default_wizard_start_label: Beginn
+  default_wizard_confirmation_label: Vollständig
+  default_preview_next_button_label: Vorschau
+  default_preview_prev_button_label: '< Zurück'
+  default_preview_label: Vorschau
+  default_draft_button_label: 'Als Entwurf speichern'
+  default_draft_saved_message: 'Einsendung zwischengespeichert. Sie können später dieses Formular mit den jetzt gesicherten Inhalten wieder aufrufen.'
+element:
+  default_more_title: Mehr
+  default_section_title_tag: h2
+mail:
+  default_body_text: "Gesendet am: [webform_submission:created]\r\nGesendet von: [webform_submission:user]\r\n\r\nGesendete Eingaben:\r\n[webform_submission:values]\n"
+  default_body_html: "<p>Gesendet am: [webform_submission:created]</p>\r\n<p>Gesendet von: [webform_submission:user]</p>\r\n<p>Gesendete Eingaben:</p>\r\n[webform_submission:values]\n"

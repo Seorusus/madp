@@ -1,0 +1,19 @@
+uuid: 24128012-35e0-4bb3-968f-df57e07217c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_fc_tabs_title
+    - field_collection.field_collection.field_p_tabs
+id: field_collection_item.field_p_tabs.field_fc_tabs_title
+field_name: field_fc_tabs_title
+entity_type: field_collection_item
+bundle: field_p_tabs
+label: 'Tabs title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

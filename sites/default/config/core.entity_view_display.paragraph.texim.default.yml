@@ -1,0 +1,46 @@
+uuid: 660cfb86-6a2c-4138-853c-7cacf86a6c8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texim.field_p_image
+    - field.field.paragraph.texim.field_p_text
+    - field.field.paragraph.texim.field_p_title
+    - image.style.m_v
+    - paragraphs.paragraphs_type.texim
+  module:
+    - field_formatter_class
+    - image
+    - text
+id: paragraph.texim.default
+targetEntityType: paragraph
+bundle: texim
+mode: default
+content:
+  field_p_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: m_v
+      image_link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    type: image
+    region: content
+  field_p_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_p_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,8 @@
+uuid: 7cc5a5be-6f68-47b2-aacc-2b4cd5626487
+langcode: fr
+status: true
+dependencies: {  }
+id: multi_bloc_info_with_image
+label: 'Multi bloc info with image'
+revision: 0
+description: 'Multi bloc info with image'

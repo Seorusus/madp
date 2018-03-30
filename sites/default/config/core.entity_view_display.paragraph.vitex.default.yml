@@ -1,0 +1,52 @@
+uuid: a96f64b1-2505-4bcd-b097-f0c31f1e1b8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.vitex.field_p_text
+    - field.field.paragraph.vitex.field_p_title
+    - field.field.paragraph.vitex.field_p_video
+    - paragraphs.paragraphs_type.vitex
+  module:
+    - field_formatter_class
+    - text
+    - youtube
+id: paragraph.vitex.default
+targetEntityType: paragraph
+bundle: vitex
+mode: default
+content:
+  field_p_text:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_p_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_p_video:
+    weight: 0
+    label: hidden
+    settings:
+      youtube_size: responsive
+      youtube_width: ''
+      youtube_height: ''
+      youtube_autoplay: false
+      youtube_loop: false
+      youtube_showinfo: false
+      youtube_controls: false
+      youtube_autohide: false
+      youtube_iv_load_policy: false
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    type: youtube_video
+    region: content
+hidden: {  }

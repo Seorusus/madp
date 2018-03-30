@@ -1,0 +1,13 @@
+uuid: 1bee718b-1114-430c-af32-4788f35948e2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: VetuwpecspsjqMCd8e7wKyr2l-AZEh1UNYWNtNywHXM
+id: comment_delete_action
+label: 'Supprimer le commentaire'
+type: comment
+plugin: comment_delete_action
+configuration: {  }

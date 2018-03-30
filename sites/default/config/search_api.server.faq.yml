@@ -1,0 +1,17 @@
+uuid: a034ae05-dec6-4054-997b-9d644a27dc36
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: faq
+name: faq
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 3
+  partial_matches: false
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

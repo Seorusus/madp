@@ -1,0 +1,19 @@
+uuid: 454c1ab0-d0d0-4694-9ae7-a7e2c686ef61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_features1
+    - paragraphs.paragraphs_type.top
+id: paragraph.top.field_p_features1
+field_name: field_p_features1
+entity_type: paragraph
+bundle: top
+label: 'Paragraph features'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

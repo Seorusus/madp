@@ -1,0 +1,21 @@
+uuid: 00996f48-a409-436f-a7ce-99a4da4844f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_fc_tabs_content
+    - field_collection.field_collection.field_p_tabs
+  module:
+    - text
+id: field_collection_item.field_p_tabs.field_fc_tabs_content
+field_name: field_fc_tabs_content
+entity_type: field_collection_item
+bundle: field_p_tabs
+label: 'Tabs content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,16 @@
+uuid: fb07382b-77f1-4a24-a00b-4c05f9697b81
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:82624683-5959-46e4-99dd-4567e42b6d04'
+  module:
+    - paragraphs_viewmode
+id: text_text
+label: 'Text +Text'
+icon_uuid: 82624683-5959-46e4-99dd-4567e42b6d04
+description: 'Use Text + Text for adding an Text on the left and an Text on the right.'
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available: {  }

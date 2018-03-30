@@ -1,0 +1,308 @@
+uuid: 14142840-2a3d-4f17-9352-eb80c662c58d
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - node.type.faq
+    - taxonomy.vocabulary.faq_theme
+  content:
+    - 'taxonomy_term:faq_theme:1ec64200-bb28-4883-ac24-eec554d26bf9'
+    - 'taxonomy_term:faq_theme:21cc949e-ff42-4ac6-ac96-e20cfcae7260'
+    - 'taxonomy_term:faq_theme:21ec3591-ba2a-4e78-aa0f-8d5b0641852b'
+    - 'taxonomy_term:faq_theme:284c53b7-aedc-4e3b-a18b-ee9b33907067'
+    - 'taxonomy_term:faq_theme:2f70989d-23f3-420b-9b1e-e9c035d77761'
+    - 'taxonomy_term:faq_theme:3f5e5c5d-5bfd-432a-9b74-58f321047b2d'
+    - 'taxonomy_term:faq_theme:4fc89f87-427e-4127-8701-0250e018fb49'
+    - 'taxonomy_term:faq_theme:5a547bf3-61d7-4592-9457-b24cb37dc6e9'
+    - 'taxonomy_term:faq_theme:5a77442a-2aee-4102-8982-7c402790eef3'
+    - 'taxonomy_term:faq_theme:5ac17e2f-a3a7-4f32-8b52-5104a9c37fac'
+    - 'taxonomy_term:faq_theme:6c534af7-fba5-4531-be03-fd5f1b247a8f'
+    - 'taxonomy_term:faq_theme:75cd38a7-52b6-45ee-9e06-2d911c1bd00d'
+    - 'taxonomy_term:faq_theme:7de5cf24-39b8-490f-82e0-ef6cb88760f0'
+    - 'taxonomy_term:faq_theme:87669408-73f7-489d-ba0e-1d09414ec78d'
+    - 'taxonomy_term:faq_theme:a18eaa66-5242-4d1c-ae50-d6d95c33044c'
+    - 'taxonomy_term:faq_theme:b82383b1-3771-4e82-beb2-55edd4d6c81c'
+    - 'taxonomy_term:faq_theme:c16bdbf2-b5db-4272-81ad-b4f62ec6b4b3'
+    - 'taxonomy_term:faq_theme:c86f1680-cd35-4af0-887e-c93b91165642'
+    - 'taxonomy_term:faq_theme:eaa9a421-6fbc-4bb6-891b-bac55429b7e0'
+    - 'taxonomy_term:faq_theme:f5e75767-8056-4cc4-8571-03deb1ccf04b'
+  module:
+    - better_exposed_filters
+    - node
+    - taxonomy
+    - user
+id: faq_page
+label: 'FAQ page'
+module: views
+description: ''
+tag: ''
+base_table: node_field_data
+base_field: nid
+core: 8.x
+display:
+  default:
+    display_plugin: default
+    id: default
+    display_title: Master
+    position: 0
+    display_options:
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      query:
+        type: views_query
+        options:
+          disable_sql_rewrite: false
+          distinct: false
+          replica: false
+          query_comment: ''
+          query_tags: {  }
+      exposed_form:
+        type: bef
+        options:
+          submit_button: Apply
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: false
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          input_required: false
+          text_input_required: 'Select any filter and click on Apply to see results'
+          bef:
+            general:
+              allow_secondary: false
+              secondary_label: 'Advanced options'
+              autosubmit: true
+              autosubmit_hide: true
+            term_node_tid_depth:
+              bef_format: bef_ul
+              more_options:
+                bef_select_all_none: false
+                bef_select_all_none_nested: false
+                bef_collapsible: false
+                is_secondary: false
+                rewrite:
+                  filter_rewrite_values: ''
+          text_input_required_format: restricted_html
+      pager:
+        type: mini
+        options:
+          items_per_page: 10
+          offset: 0
+          id: 0
+          total_pages: null
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          tags:
+            previous: ‹‹
+            next: ››
+      style:
+        type: default
+      row:
+        type: 'entity:node'
+        options:
+          view_mode: full
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          entity_type: node
+          entity_field: title
+          label: ''
+          alter:
+            alter_text: false
+            make_link: false
+            absolute: false
+            trim: false
+            word_boundary: false
+            ellipsis: false
+            strip_tags: false
+            html: false
+          hide_empty: false
+          empty_zero: false
+          settings:
+            link_to_entity: true
+          plugin_id: field
+          relationship: none
+          group_type: group
+          admin_label: ''
+          exclude: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            faq: faq
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+        term_node_tid_depth:
+          id: term_node_tid_depth
+          table: node_field_data
+          field: term_node_tid_depth
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value:
+            1: 1
+            5: 5
+            6: 6
+            7: 7
+            8: 8
+            2: 2
+            9: 9
+            10: 10
+            11: 11
+            12: 12
+            3: 3
+            13: 13
+            14: 14
+            15: 15
+            16: 16
+            4: 4
+            17: 17
+            18: 18
+            19: 19
+            20: 20
+          group: 1
+          exposed: true
+          expose:
+            operator_id: term_node_tid_depth_op
+            label: ''
+            description: ''
+            use_operator: false
+            operator: term_node_tid_depth_op
+            identifier: tid
+            required: true
+            remember: true
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              editor: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: faq_theme
+          hierarchy: true
+          error_message: true
+          depth: 0
+          entity_type: node
+          plugin_id: taxonomy_index_tid_depth
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          order: DESC
+          entity_type: node
+          entity_field: created
+          plugin_id: date
+          relationship: none
+          group_type: group
+          admin_label: ''
+          exposed: false
+          expose:
+            label: ''
+          granularity: second
+      title: 'Questions fréquentes'
+      header: {  }
+      footer: {  }
+      empty: {  }
+      relationships: {  }
+      arguments: {  }
+      display_extenders: {  }
+      use_ajax: true
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  page_1:
+    display_plugin: page
+    id: page_1
+    display_title: Page
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: faq
+      exposed_block: true
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
