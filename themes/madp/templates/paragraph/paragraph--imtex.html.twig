@@ -49,12 +49,14 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }} id="{{ paragraph_id }}">
     {% block content %}
-      <div class="s-paragraph__media col-md-5 col-sm-12 col-xs-12">
-        {{ content.field_p_image }}
-      </div>
-      <div class="s-paragraph__info col-md-7 col-sm-12 col-xs-12">
+
+      <div class="s-paragraph__info col-md-7 col-md-push-5 col-sm-12 col-xs-12">
         {{ content.field_p_title }}
         {{ content.field_p_text }}
+      </div>
+
+      <div class="s-paragraph__media col-md-5 col-md-pull-7 col-sm-12 col-xs-12">
+            {{ content.field_p_image }}
       </div>
     {% endblock %}
   </div>

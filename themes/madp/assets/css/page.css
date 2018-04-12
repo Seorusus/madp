@@ -299,3 +299,12 @@
 .breadcrumb > li + li:before {
   content: ">";
 }
+
+/* -- Additional task #3-- */
+
+@media (max-width: 992px) {
+
+  .s-paragraph__info .field--name-field-p-title {
+    margin-top: 45px;
+  }
+}
