@@ -294,3 +294,8 @@
   color: #fff;
 }
 
+/* -- Additional task #1-- */
+
+.breadcrumb > li + li:before {
+  content: ">";
+}
